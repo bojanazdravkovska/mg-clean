@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <MgCleanDefaultLayout>
       <HeroSection/>
-      <ServicesSection/>
+      <ServicesSection dashboard={true}/>
       <RequestForQuotationForm/>
       <ClientsSection/>
     </MgCleanDefaultLayout>

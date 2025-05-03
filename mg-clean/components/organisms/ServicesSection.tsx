@@ -1,6 +1,10 @@
 import Card from "../atoms/Card"
 
-export default function ServicesSection() {
+interface ServicesSectionProps {
+  dashboard?: boolean
+}
+
+export default function ServicesSection({ dashboard = false }: ServicesSectionProps) {
   const services = [
     {
       title: "Property Maintenance",
@@ -60,16 +64,20 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container mx-auto px-4 space-y-12">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Services</h2>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We offer a wide range of cleaning and maintenance services to meet your needs
-            </p>
+    <section id="services" className="w-full py-6 md:py-12 lg:py-16">
+      <div className="container mx-auto px-4 space-y-6">
+        {dashboard ? (
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Services</h2>
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                We offer a wide range of cleaning and maintenance services to meet your needs
+              </p>
+            </div>
           </div>
-        </div>
+        ) : (
+          <h2 className="text-3xl font-bold">Our Services</h2>
+        )}
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => (
