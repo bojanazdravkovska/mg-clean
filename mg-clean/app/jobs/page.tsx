@@ -36,7 +36,7 @@ export default function JobsPage() {
                 <WrenchScrewdriverIcon className="w-6 h-6 text-[#3AA655]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Modern techniques and equipment</h3>
-              <p className="text-gray-600">We offer state-of-the-art cleaning technologies and high-quality equipment.</p>
+              <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">We offer state-of-the-art cleaning technologies and high-quality equipment.</p>
             </div>
 
             {/* Flexible Hours */}
@@ -45,7 +45,7 @@ export default function JobsPage() {
                 <ClockIcon className="w-6 h-6 text-[#3AA655]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Flexible working hours</h3>
-              <p className="text-gray-600">We offer flexible working hours to meet the individual needs of our employees.</p>
+              <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">We offer flexible working hours to meet the individual needs of our employees.</p>
             </div>
 
             {/* Diverse Locations */}
@@ -54,7 +54,7 @@ export default function JobsPage() {
                 <MapPinIcon className="w-6 h-6 text-[#3AA655]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Diverse locations</h3>
-              <p className="text-gray-600">Do you like variety? We offer a variety of jobs at various locations.</p>
+              <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">Do you like variety? We offer a variety of jobs at various locations.</p>
             </div>
           </div>
         </div>

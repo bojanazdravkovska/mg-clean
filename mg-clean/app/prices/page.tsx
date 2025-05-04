@@ -64,24 +64,24 @@ export default function PricesPage() {
           {/* Tag 1 */}
           <div className="flex flex-col items-start bg-white rounded-xl shadow p-6 border-l-4 border-[#3AA655] transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             <span className="text-lg font-bold text-[#3AA655] mb-1">Fair</span>
-            <span className="text-gray-600">In line with quality</span>
+            <span className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">In line with quality</span>
           </div>
           {/* Tag 2 */}
           <div className="flex flex-col items-start bg-white rounded-xl shadow p-6 border-l-4 border-[#3AA655] transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             <span className="text-lg font-bold text-[#3AA655] mb-1">Transparent</span>
-            <span className="text-gray-600">Understand what you are paying for</span>
+            <span className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">Understand what you are paying for</span>
           </div>
           {/* Tag 3 */}
           <div className="flex flex-col items-start bg-white rounded-xl shadow p-6 border-l-4 border-[#3AA655] transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             <span className="text-lg font-bold text-[#3AA655] mb-1">Long-term</span>
-            <span className="text-gray-600">With competitive prices</span>
+            <span className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">With competitive prices</span>
           </div>
         </div>
 
         {/* Price transparency and quality section */}
         <section className="mt-24">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900 mb-2">Price transparency<br />and quality</h2>
-          <hr className="border-[#F97D1C] w-24 mb-6" />
+          <hr className="border-[#3AA655] w-24 mb-6" />
           <p className="max-w-2xl text-gray-600 text-lg mb-12">The value of our cleaning services should not only be expressed in numbers, but also in the quality of the services provided and the satisfaction of our customers.</p>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {infoCards.map((card, idx) => (
@@ -96,7 +96,7 @@ export default function PricesPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-8 py-14 gap-8 relative">
           <div className="flex-1 max-w-2xl z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">It's not just about cleanliness,<br />it's about trust!</h2>
-            <hr className="border-gray-300 mb-6" />
+            <hr className="border-[#a4ebb7] mb-6" />
             <p className="text-lg text-gray-700 font-medium">Cleanliness alone isn't enough. We build a foundation of trust with transparent pricing and reliable cleaning.</p>
           </div>
           <div className="flex-1 flex justify-center items-end relative h-[340px]">
@@ -120,6 +120,7 @@ export default function PricesPage() {
       <section className="w-full bg-white py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why is the right<br />price crucial?</h2>
+          <hr className="border-[#a4ebb7] w-full mb-6" />
           <p className="text-lg text-gray-700 leading-relaxed">
             A fair price allows us to hire qualified and experienced cleaners and pay them appropriately. This guarantees not only thorough cleaning but also professional service. Cleaners often have access to sensitive information on your premises. A company that focuses on the lowest price may not be able to take the necessary security precautions to protect this information.<br /><br />
             Choosing the right cleaning company is crucial to ensuring not only a clean but also a safe and secure environment. We pride ourselves on providing this balance and giving you the best value for your trust.<br /><br />
