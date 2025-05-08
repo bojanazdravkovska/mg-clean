@@ -13,7 +13,7 @@ export function RequestForQuotationForm() {
           <h2 className="text-2xl font-extrabold mb-4 text-[#3AA655]">Make a non-binding enquiry now!</h2>
           <hr className="border-black/50 mb-6" />
           <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
-            Do you need professional property maintenance, cleaning, or garden care? Contact us for a free, no-obligation quote. We'll be happy to advise you and find the right solution for your needs!
+            Do you need professional property maintenance, cleaning, or garden care? Contact us for a free, no-obligation quote. We&apos;ll be happy to advise you and find the right solution for your needs!
           </p>
         </div>
         <div className="w-full max-w-md flex justify-center">

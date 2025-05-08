@@ -48,9 +48,6 @@ export default function ClientsSection() {
     setCurrent((c) => (c === total - 1 ? 0 : c + 1));
   };
 
-  // Helper to get the correct index with wrap-around
-  const getIndex = (idx: number) => (idx + total) % total;
-
   return (
     <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32 bg-white">
       <div className="max-w-5xl mx-auto space-y-12 px-4">
@@ -58,7 +55,7 @@ export default function ClientsSection() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Our Clients Say</h2>
             <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Don't just take our word for it - hear from our satisfied customers
+              Don&apos;t just take our word for it - hear from our satisfied customers
             </p>
           </div>
         </div>
@@ -119,7 +116,7 @@ export default function ClientsSection() {
                         <h3 className="font-semibold">{testimonial.name}</h3>
                         <p className="text-sm text-gray-500">{testimonial.role}</p>
                       </div>
-                      <p className="text-gray-500 text-center">"{testimonial.text}"</p>
+                      <p className="text-gray-500 text-center">{testimonial.text}</p>
                     </div>
                   );
                 }

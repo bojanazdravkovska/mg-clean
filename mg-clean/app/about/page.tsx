@@ -1,8 +1,6 @@
 import Image from "next/image"
-import Link from "next/link"
 import MgCleanDefaultLayout from "@/components/templates/MgCleanDefaultLayout"
 import { Star, Lock, Users, Handshake, Clock, Heart, ArrowRight } from "lucide-react"
-import { Button } from "@/components/atoms/Button"
 import { References } from "@/components/organisms/References"
 
 const values = [
@@ -58,7 +56,7 @@ export default function AboutUsPage() {
               About <span className="text-[#3AA655]">Us</span>
             </h1>
             <p className="max-w-[600px] text-[16px] mt-2 leading-relaxed text-white">
-              "Quality means doing it right when no one is looking." – Henry Ford
+              &quot;Quality means doing it right when no one is looking.&quot; – Henry Ford
             </p>
           </div>
         </div>
@@ -73,8 +71,8 @@ export default function AboutUsPage() {
           </h2>
           <hr className="border-[#a4ebb7] w-full mb-6" />
           <p className="text-lg text-gray-700 leading-relaxed">
-          A good cleaning service isn't just about cleanliness; it's about much more: responsibility, respect, and trust. Our employees enter your private or business premises and are confronted not only with dust and dirt, but also with your privacy. 
-          That's why it's especially important to us that you feel safe when we're with you.</p>
+          A good cleaning service isnt just about cleanliness; it&apos;s about much more: responsibility, respect, and trust. Our employees enter your private or business premises and are confronted not only with dust and dirt, but also with your privacy. 
+          That&apos;s why it&apos;s especially important to us that you feel safe when we&apos;re with you.</p>
         </div>
       </section>
       <section className="w-full py-12 md:py-24 bg-gray-50">
@@ -121,10 +119,10 @@ export default function AboutUsPage() {
               <p className="text-gray-600 text-lg">
                 As word spread about our attention to detail and reliable service, we quickly grew from a one-person
                 operation to a full team of cleaning professionals. Today, we serve hundreds of residential and commercial
-                clients across the region, but we've never lost our commitment to quality and personal service.
+                clients across the region, but we&apos;ve never lost our commitment to quality and personal service.
               </p>
               <p className="text-gray-600 text-lg">
-                Our growth has been built on a foundation of trust, reliability, and excellence in everything we do. We're
+                Our growth has been built on a foundation of trust, reliability, and excellence in everything we do. We&apos;re
                 proud of our journey and excited about continuing to serve our community with the highest standards of
                 cleaning and maintenance.
               </p>
