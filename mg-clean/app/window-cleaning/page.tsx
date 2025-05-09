@@ -7,7 +7,7 @@ import { Checkbox } from "@/components/atoms/Checkbox"
 import { Input } from "@/components/atoms/Input"
 import { Textarea } from "@/components/atoms/Textarea"
 
-export default function PropertyMaintenancePage() {
+export default function WindowCleaningPage() {
   return (
     <MgCleanDefaultLayout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
