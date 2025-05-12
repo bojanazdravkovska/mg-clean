@@ -1,11 +1,7 @@
 import Image from "next/image"
 import MgCleanDefaultLayout from "@/components/templates/MgCleanDefaultLayout"
 import ClientsSection from "@/components/organisms/ClientsSection"
-import { Label } from "@/components/atoms/Label"
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/molecules/Select"
-import { Checkbox } from "@/components/atoms/Checkbox"
-import { Input } from "@/components/atoms/Input"
-import { Textarea } from "@/components/atoms/Textarea"
+import { RequestForQuotation } from "@/components/organisms/RequestForQuotation"
 
 export default function WindowCleaningPage() {
   return (
@@ -33,8 +29,8 @@ export default function WindowCleaningPage() {
         </div>
       </div>
 
-                 {/* Well Maintained All Around Section */}
-                 <section className="w-full py-12 md:py-24 bg-white">
+               
+        <section className="w-full py-12 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4 order-1">
@@ -92,10 +88,10 @@ export default function WindowCleaningPage() {
       </section>
       <ClientsSection />
       {/* Quotation Section with Text */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:flex-row items-start gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:flex-row items-center gap-12">
         {/* Text from the image, styled like other sections */}
-        <div className="flex-1 min-w-[320px] flex flex-col justify-start">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4 mt-8">
+        <div className="flex-1 min-w-[320px] flex flex-col justify-center">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
             Get a free quote for your window cleaning
           </h2>
           <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
@@ -103,66 +99,7 @@ export default function WindowCleaningPage() {
         </div>
         {/* Request for Quotation Form */}
         <div className="flex-1 min-w-[320px] flex justify-center">
-          <form className="w-full flex flex-col gap-4 p-6 border border-gray-200 rounded-md bg-white shadow-md">
-            <h2 className="text-2xl font-semibold mb-2 text-[#F97D1C] text-center">Request for quotation</h2>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="service">Service</Label>
-              <Select>
-                <SelectTrigger>
-                  <SelectValue placeholder="Please select" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="cleaning">Property maintenance</SelectItem>
-                  <SelectItem value="maintenance">Moving cleaning</SelectItem>
-                  <SelectItem value="office">Office cleaning</SelectItem>
-                  <SelectItem value="window">Window cleaning</SelectItem>
-                  <SelectItem value="mc">Maintenance cleaning</SelectItem>
-                  <SelectItem value="garden">Garden Care</SelectItem>
-                  <SelectItem value="disposal">Clearance/disposal</SelectItem>
-                  <SelectItem value="other">Other</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="canton">Your canton<span className="text-red-500">*</span></Label>
-              <div className="flex flex-wrap gap-6 p-2 rounded">
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Aargau" /> Aargau
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Zurich" /> Zurich
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Lucerne" /> Lucerne
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Other" /> Other
-                </label>
-              </div>
-              <span className="text-xs text-red-500 ml-2">Necessary</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="name">Your name<span className="text-red-500">*</span></Label>
-              <Input id="name" type="text" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="email">Your email<span className="text-red-500">*</span></Label>
-              <Input id="email" type="email" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="phone">Your phone number</Label>
-              <Input id="phone" type="tel" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="date">Desired date</Label>
-              <Input id="date" type="date" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="remarks">Remarks</Label>
-              <Textarea id="remarks" rows={3} />
-            </div>
-            <button type="submit" className="mt-2 w-full bg-[#F97D1C] hover:bg-[#d96b18] text-white font-semibold py-2 px-4 rounded transition-colors">Submit</button>
-          </form>
+          <RequestForQuotation />
         </div>
       </div>
     </MgCleanDefaultLayout>

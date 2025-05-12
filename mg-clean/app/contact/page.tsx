@@ -24,7 +24,7 @@ export default function ContactPage() {
           </div>
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-start pl-28 pr-8 pt-16 z-20">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-white">
-              Contact
+              Contact <span className="text-[#3AA655]">us</span>
             </h1>
             <p className="max-w-[600px] text-[16px] mt-2 leading-relaxed text-white">
               Do you have any questions or would you like a customized quote? Contact us – we look forward to hearing from you! Use our form, call us, or send us an email. We&apos;re happy to help!

@@ -95,9 +95,9 @@ export default function PricesPage() {
       <section className="mt-24 w-full rounded-none bg-gradient-to-r from-green-50 to-green-100 relative overflow-visible" style={{ minHeight: '320px' }}>
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-8 py-14 gap-8 relative">
           <div className="flex-1 max-w-2xl z-10">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">It's not just about cleanliness,<br />it's about trust!</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">It&apos;s not just about cleanliness,<br />it&apos;about trust!</h2>
             <hr className="border-[#a4ebb7] mb-6" />
-            <p className="text-lg text-gray-700 font-medium">Cleanliness alone isn't enough. We build a foundation of trust with transparent pricing and reliable cleaning.</p>
+            <p className="text-lg text-gray-700 font-medium">Cleanliness alone isn&apos;t enough. We build a foundation of trust with transparent pricing and reliable cleaning.</p>
           </div>
           <div className="flex-1 flex justify-center items-end relative h-[340px]">
             <div className="absolute left-1/2 bottom-0 translate-x-[-50%] translate-y-[35%] w-[80%] z-20">

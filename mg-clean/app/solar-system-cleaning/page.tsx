@@ -34,7 +34,7 @@ export default function SolarSystemCleaningPage() {
           {/* Ecologically */}
           <div className="flex-1 min-w-[250px]">
             <h2 className="text-2xl font-semibold mb-2 border-b border-[#3AA655] pb-2">Sustainable</h2>
-            <p className="mt-4 text-[18px] text-[#5A7D8C] italic">
+            <p className="mt-4 text-[18px] text-[#5A7D8C] text-justify">
                 We attach great importance to sustainability and environmental protection. 
                 That&apos;s why we only use reverse osmosis water to clean your photovoltaic system .
             </p>
@@ -42,7 +42,7 @@ export default function SolarSystemCleaningPage() {
           {/* Economically */}
           <div className="flex-1 min-w-[250px]">
             <h2 className="text-2xl font-semibold mb-2 border-b border-[#3AA655] pb-2">Efficient</h2>
-            <p className="mt-4 text-[18px] text-[#5A7D8C] italic">
+            <p className="mt-4 text-[18px] text-[#5A7D8C] text-justify">
                 A clean photovoltaic system produces more energy and thus helps reduce your electricity costs. 
                 Our professional cleaning ensures that your system operates efficiently over the long term.
             </p>
@@ -50,7 +50,7 @@ export default function SolarSystemCleaningPage() {
           {/* Social */}
           <div className="flex-1 min-w-[250px]">
             <h2 className="text-2xl font-semibold mb-2 border-b border-[#3AA655] pb-2">Secure</h2>
-            <p className="mt-4 text-[18px] text-[#5A7D8C] italic">
+            <p className="mt-4 text-[18px] text-[#5A7D8C] text-justify">
             The safety of your solar system and our cleaning team is very important to us. 
             Therefore, we adhere to the highest safety standards when conducting every cleaning.
             </p>
@@ -121,7 +121,7 @@ export default function SolarSystemCleaningPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:flex-row items-start gap-12">
         {/* Text from the image, styled like other sections */}
         <div className="flex-1 min-w-[320px] flex flex-col justify-start">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4 mt-8">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4 mt-16">
             Frequently asked questions
           </h2>
           <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
@@ -129,15 +129,15 @@ export default function SolarSystemCleaningPage() {
         {/* FAQ List */}
         <div className="flex-1 min-w-[320px] space-y-6">
           <div>
-            <h3 className="text-xl font-semibold text-[#5A7D8C] mb-2">How often should I have my photovoltaic system cleaned?</h3>
+            <h3 className="text-xl font-semibold text-[#3AA655] mb-2">How often should I have my photovoltaic system cleaned?</h3>
             <p className="text-gray-600 text-lg text-justify">It is recommended to clean the solar system at least once a year, depending on environmental conditions.</p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-[#5A7D8C] mb-2">Can I clean my solar system myself?</h3>
+            <h3 className="text-xl font-semibold text-[#3AA655] mb-2">Can I clean my solar system myself?</h3>
             <p className="text-gray-600 text-lg text-justify">Improper cleaning can damage the modules. We recommend hiring a professional.</p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-[#5A7D8C] mb-2">What cleaning methods do you use?</h3>
+            <h3 className="text-xl font-semibold text-[#3AA655] mb-2">What cleaning methods do you use?</h3>
             <p className="text-gray-600 text-lg text-justify">We use only reverse osmosis water and gentle techniques to maintain your solar modules.</p>
           </div>
         </div>

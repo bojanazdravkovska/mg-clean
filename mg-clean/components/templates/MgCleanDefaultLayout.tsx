@@ -115,10 +115,10 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Contact Us</h3>
               <address className="not-italic text-gray-500 space-y-2">
-                <p>123 Cleaning Street</p>
-                <p>City, Country 12345</p>
-                <p className="mt-4">Email: info@mgclean.com</p>
-                <p>Phone: +1 (555) 123-4567</p>
+                <p>Oberdorfstr 6</p>
+                <p>6340 Baar, Switzerland</p>
+                <p className="mt-4">Email: info@mg-clean.ch</p>
+                <p>Phone: 075 403 72 04</p>
               </address>
             </div>
           </div>

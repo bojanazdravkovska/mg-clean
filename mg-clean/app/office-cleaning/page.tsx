@@ -1,12 +1,8 @@
 import Image from "next/image"
 import MgCleanDefaultLayout from "@/components/templates/MgCleanDefaultLayout"
 import ClientsSection from "@/components/organisms/ClientsSection"
-import { Label } from "@/components/atoms/Label"
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/molecules/Select"
-import { Checkbox } from "@/components/atoms/Checkbox"
-import { Input } from "@/components/atoms/Input"
-import { Textarea } from "@/components/atoms/Textarea"
 import { References } from "@/components/organisms/References"
+import { RequestForQuotation } from "@/components/organisms/RequestForQuotation"
 
 export default function PropertyMaintenancePage() {
   return (
@@ -42,7 +38,7 @@ export default function PropertyMaintenancePage() {
             Make a non-binding enquiry now!
           </h2>
           <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
-          <p className="text-gray-600 text-lg text-justify mb-4">
+          <p className="text-gray-600 text-lg text-justify mb-2">
             Do you have a lot to do and little time to take care of the cleanliness of your office? With professional office cleaning from M&G Clean, we want to take the pressure off you. We are happy to carry out office cleaning with carefully selected specialists. Whether during the day, in the evenings, or on weekends – we are happy to work with you to develop a cleaning schedule. Regular and professionally conducted office cleaning contributes to the long-term health of both people and buildings.
           </p>
           <p className="text-gray-600 text-lg text-justify">
@@ -51,87 +47,32 @@ export default function PropertyMaintenancePage() {
         </div>
         {/* Request for Quotation Form */}
         <div className="flex-1 min-w-[320px] flex justify-center">
-          <form className="w-full flex flex-col gap-4 p-6 border border-gray-200 rounded-md bg-white shadow-md">
-            <h2 className="text-2xl font-semibold mb-2 text-[#F97D1C] text-center">Request for quotation</h2>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="service">Service</Label>
-              <Select>
-                <SelectTrigger>
-                  <SelectValue placeholder="Please select" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="cleaning">Property maintenance</SelectItem>
-                  <SelectItem value="maintenance">Moving cleaning</SelectItem>
-                  <SelectItem value="office">Office cleaning</SelectItem>
-                  <SelectItem value="window">Window cleaning</SelectItem>
-                  <SelectItem value="mc">Maintenance cleaning</SelectItem>
-                  <SelectItem value="garden">Garden Care</SelectItem>
-                  <SelectItem value="disposal">Clearance/disposal</SelectItem>
-                  <SelectItem value="other">Other</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="canton">Your canton<span className="text-red-500">*</span></Label>
-              <div className="flex flex-wrap gap-6 p-2 rounded">
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Aargau" /> Aargau
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Zurich" /> Zurich
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Lucerne" /> Lucerne
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Other" /> Other
-                </label>
-              </div>
-              <span className="text-xs text-red-500 ml-2">Necessary</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="name">Your name<span className="text-red-500">*</span></Label>
-              <Input id="name" type="text" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="email">Your email<span className="text-red-500">*</span></Label>
-              <Input id="email" type="email" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="phone">Your phone number</Label>
-              <Input id="phone" type="tel" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="date">Desired date</Label>
-              <Input id="date" type="date" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="remarks">Remarks</Label>
-              <Textarea id="remarks" rows={3} />
-            </div>
-            <button type="submit" className="mt-2 w-full bg-[#F97D1C] hover:bg-[#d96b18] text-white font-semibold py-2 px-4 rounded transition-colors">Submit</button>
-          </form>
+          <RequestForQuotation />
         </div>
       </div>
       {/* New Image Section with Overlay Texts */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid gap-8 md:grid-rows-2">
-        <div className="relative w-full h-64 md:h-72 rounded-xl overflow-hidden">
+        <div className="relative w-full h-[200px] md:h-[240px] rounded-xl overflow-hidden">
           <Image
-            src="/assets/images/office-cleaning.jpg"
+            src="/assets/images/office-cleaning-img.jpg"
             alt="Trustworthy and discreet"
             fill
-            className="object-cover w-full h-full"
-            sizes="(max-width: 768px) 100vw, 600px"
+            className="object-cover"
+            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
           <span className="absolute top-6 left-6 text-white font-bold text-lg md:text-xl drop-shadow-lg">Trustworthy and discreet</span>
         </div>
-        <div className="relative w-full h-64 md:h-72 rounded-xl overflow-hidden">
+        <div className="relative w-full h-[200px] md:h-[240px] rounded-xl overflow-hidden">
           <Image
-            src="/assets/images/office-cleaning.jpg"
+            src="/assets/images/office-cleaning-checklist.jpeg"
             alt="For a well-maintained working environment"
             fill
-            className="object-cover w-full h-full"
-            sizes="(max-width: 768px) 100vw, 600px"
+            className="object-cover"
+            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
           <span className="absolute top-6 left-6 text-white font-bold text-lg md:text-xl drop-shadow-lg">For a well-maintained working environment</span>
         </div>

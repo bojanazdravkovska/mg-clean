@@ -151,8 +151,8 @@ export default function GardenCarePage() {
       </section>
 
       {/* Garden Care Services List Section */}
-      <section className="w-full py-4 md:py-6 bg-white">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:pl-16">
+      <section className="w-full py-12 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-12 md:px-24">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Column 1 */}
             <ul className="space-y-4">
@@ -242,9 +242,9 @@ export default function GardenCarePage() {
       {/* Garden Care in Aargau Section */}
       <section className="w-full py-12">
         <div className="max-w-7xl mx-auto px-12 md:px-24">
-          <h2 className="text-lg md:text-xl font-bold text-[#B7D08B] mb-2">YOUR GARDEN CARE IN AARGAU</h2>
-          <div className="w-full max-w-[1100px] h-[2px] bg-gray-200 mb-6" />
-          <p className="italic text-[#7A8B6F] text-base md:text-lg mb-8 max-w-4xl">
+          <h2 className="text-lg md:text-xl font-bold text-[#3AA655] mb-2">Your garden care in Aargau</h2>
+          <hr className="border-[#a4ebb7] w-full mb-6" />
+          <p className="text-gray-600 text-lg text-justify mb-4">
             Gardening is a relaxing and fulfilling activity for many people. However, in Aargau, in particular, it can be particularly challenging due to the changeable climate and unique soil conditions. With the right tips and tricks, however, even a garden in Aargau can be successfully maintained and designed. Those who are unsure about gardening in Aargau or lack the time can also seek the help of professional gardeners. They are familiar with the unique challenges of Aargau&apos;s climate and soil and can provide support with garden maintenance.
           </p>
           {/* Image Gallery/Slider */}
@@ -252,23 +252,23 @@ export default function GardenCarePage() {
 
           {/* Advantages Section */}
           <section className="mt-10">
-            <h3 className="text-[#B7D08B] italic text-lg font-semibold mb-6">Professional garden care offers many advantages</h3>
+            <h3 className="text-[#3AA655] text-lg font-semibold mb-6">Professional garden care offers many advantages</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <ul className="space-y-6">
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Experience and expertise:</b> Professional gardeners have extensive knowledge of plants, soils, and care practices that they can use in gardening</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Time savings:</b> By hiring a professional gardener, you save the time and effort required for garden maintenance.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Year-round care:</b> Professional gardeners often offer year-round care to ensure that your garden is optimally cared for in every season.</span>
@@ -276,19 +276,19 @@ export default function GardenCarePage() {
               </ul>
               <ul className="space-y-6">
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Increase property value:</b> A well-maintained garden can increase the value of your property, which can have a positive impact on its resale value.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Environmental friendliness:</b> Professional gardeners often use environmentally friendly methods and products to maintain the garden, which can lead to a positive contribution to the environment.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-1 text-[#B7D08B]">
+                  <span className="mt-1 text-[#3AA655]">
                     <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M7.629 15.314a1 1 0 0 1-1.415 0l-3.536-3.536a1 1 0 1 1 1.415-1.415l2.829 2.828 7.778-7.778a1 1 0 1 1 1.415 1.415l-8.486 8.486Z"/></svg>
                   </span>
                   <span><b>Improve garden quality:</b> Professional garden care improves the health and beauty of your garden, which can lead to a higher quality of life and a more enjoyable time outdoors.</span>

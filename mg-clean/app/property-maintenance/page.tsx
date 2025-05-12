@@ -1,10 +1,6 @@
 import Image from "next/image"
 import MgCleanDefaultLayout from "@/components/templates/MgCleanDefaultLayout"
-import { Label } from "@/components/atoms/Label"
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/molecules/Select"
-import { Checkbox } from "@/components/atoms/Checkbox"
-import { Input } from "@/components/atoms/Input"
-import { Textarea } from "@/components/atoms/Textarea"
+import { RequestForQuotation } from "@/components/organisms/RequestForQuotation"
 
 export default function PropertyMaintenancePage() {
   return (
@@ -35,65 +31,7 @@ export default function PropertyMaintenancePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:flex-row items-start gap-12">
         {/* Request for Quotation Form */}
         <div className="flex-1 min-w-[320px] flex justify-center">
-          <form className="w-full flex flex-col gap-4 p-6 border border-gray-200 rounded-md bg-white shadow-md">
-            <h2 className="text-2xl font-semibold mb-2 text-[#F97D1C] text-center">Request for quotation</h2>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="service">Service</Label>
-              <Select>
-                <SelectTrigger>
-                  <SelectValue placeholder="Please select" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="cleaning">Property maintenance</SelectItem>
-                  <SelectItem value="maintenance">Moving cleaning</SelectItem>
-                  <SelectItem value="office">Office cleaning</SelectItem>
-                  <SelectItem value="window">Window cleaning</SelectItem>
-                  <SelectItem value="mc">Maintenance cleaning</SelectItem>
-                  <SelectItem value="garden">Garden Care</SelectItem>
-                  <SelectItem value="disposal">Clearance/disposal</SelectItem>
-                  <SelectItem value="other">Other</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="canton">Your canton<span className="text-red-500">*</span></Label>
-              <div className="flex flex-wrap gap-6 p-2 rounded">
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Aargau" /> Aargau
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Zurich" /> Zurich
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Lucerne" /> Lucerne
-                </label>
-                <label className="flex items-center gap-2">
-                  <Checkbox name="canton" value="Other" /> Other
-                </label>
-              </div>
-              <span className="text-xs text-red-500 ml-2">Necessary</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="name">Your name<span className="text-red-500">*</span></Label>
-              <Input id="name" type="text" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="email">Your email<span className="text-red-500">*</span></Label>
-              <Input id="email" type="email" required />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="phone">Your phone number</Label>
-              <Input id="phone" type="tel" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="date">Desired date</Label>
-              <Input id="date" type="date" />
-            </div>
-            <div className="flex flex-col gap-1">
-              <Label htmlFor="remarks">Remarks</Label>
-              <Textarea id="remarks" rows={3} />
-            </div>
-          </form>
+          <RequestForQuotation />
         </div>
         {/* Property Maintenance Text */}
         <div className="flex-1 min-w-[320px] flex flex-col justify-start">
@@ -101,10 +39,10 @@ export default function PropertyMaintenancePage() {
             Your caretaker company<br />for professional property maintenance
           </h2>
           <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
-          <p className="text-gray-600 text-lg text-justify">
+          <p className="text-gray-600 text-lg text-justify mb-2">
             Our team consists of highly qualified and experienced caretakers with extensive knowledge and expertise in all aspects of building maintenance. We offer our clients customized property maintenance services tailored to each client&apos;s specific needs.
           </p>
-          <p className="text-gray-600 text-lg text-justify">
+          <p className="text-gray-600 text-lg text-justify mb-2">
             As a reliable property management company, we understand that the appearance and condition of a building greatly influence the impression it makes on customers and guests. Therefore, we always strive to ensure that all the buildings we manage are in perfect condition, whether through interior cleaning, exterior maintenance, or troubleshooting technical issues.
           </p>
           <p className="text-gray-600 text-lg text-justify">
@@ -121,7 +59,7 @@ export default function PropertyMaintenancePage() {
                 A caretaker is an all-rounder – cleaning, repairing, maintaining, monitoring.
               </h2>
               <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
-              <p className="text-gray-600 text-lg text-justify mb-4">
+              <p className="text-gray-600 text-lg text-justify mb-2">
                 A caretaker company is responsible for the upkeep and maintenance of residential and commercial buildings, industrial buildings, schools, and public buildings. Their duties and responsibilities vary depending on the size and technical equipment of the property. A distinction is made between caretakers with predominantly practical duties and those with predominantly organizational tasks.
               </p>
               <p className="text-gray-600 text-lg text-justify">
@@ -164,10 +102,10 @@ export default function PropertyMaintenancePage() {
                 Property maintenance is a matter of trust.
               </h2>
               <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mb-6" />
-              <p className="text-gray-600 text-lg text-justify mb-4">
+              <p className="text-gray-600 text-lg text-justify mb-2">
                 We offer a comprehensive range of facility management services. As our name M&G Clean suggests, our company encompasses all the services required for optimal property maintenance.
               </p>
-              <p className="text-gray-600 text-lg text-justify mb-4">
+              <p className="text-gray-600 text-lg text-justify mb-2">
                 With over 1000 apartments in various properties under our management, we are characterized by a flexible, customer-oriented service that is aimed at both property management companies and private customers.
               </p>
               <p className="text-gray-600 text-lg text-justify">
