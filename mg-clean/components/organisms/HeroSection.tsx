@@ -23,10 +23,10 @@ export default function HeroSection() {
             well-maintained, and inviting environment.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row mt-6">
-            <Link href="#contact">
+            <Link href="contact">
               <Button variant="secondary">Book Now</Button>
             </Link>
-            <Link href="#services">
+            <Link href="services">
               <Button variant="secondary">Our Services</Button>
             </Link>
           </div>
