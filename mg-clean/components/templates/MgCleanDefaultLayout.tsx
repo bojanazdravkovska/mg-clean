@@ -1,38 +1,52 @@
-import type React from "react"
-import Link from "next/link"
-import Image from "next/image"
+'use client';
+
+import type React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import LocaleSwitcher from '@/components/atoms/LanguageSwitcher';
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-  navigationMenuTriggerStyle,
-} from "@/components/organisms/NavigationMenu"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/organisms/Sheet"
-import { Menu } from "lucide-react"
+  navigationMenuTriggerStyle
+} from '@/components/organisms/NavigationMenu';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/organisms/Sheet';
+import { Menu } from 'lucide-react';
 
 interface MgCleanDefaultLayoutProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
-const navigationItems = [
-  { name: "Services", href: "/services" },
-  { name: "Prices", href: "/prices" },
-  { name: "About us", href: "/about" },
-  { name: "References", href: "/references" },
-  { name: "Sustainability", href: "/sustainability" },
-  { name: "Jobs", href: "/jobs" },
-  { name: "Contact", href: "/contact" },
-]
+function getLocaleFromPath(pathname: string): 'en' | 'de' {
+  const firstSegment = pathname.split('/')[1];
+  return firstSegment === 'de' ? 'de' : 'en';
+}
 
 const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children }) => {
+  const pathname = usePathname();
+  const locale = getLocaleFromPath(pathname);
+  const t = useTranslations('navigation');
+
+  const navigationItems = [
+    { name: t('services'), href: '/services' },
+    { name: t('prices'), href: '/prices' },
+    { name: t('about'), href: '/about' },
+    { name: t('references'), href: '/references' },
+    { name: t('sustainability'), href: '/sustainability' },
+    { name: t('jobs'), href: '/jobs' },
+    { name: t('contact'), href: '/contact' }
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-white relative border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center h-20">
+          <div className="flex items-center justify-center h-20 relative">
             {/* Logo */}
             <div className="absolute left-5 top-0">
-              <Link href="/">
+              <Link href={`/${locale}`}>
                 <Image
                   src="/assets/images/mg-clean-logo.png"
                   alt="MG Clean Logo"
@@ -49,7 +63,7 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
                 <NavigationMenuList className="flex space-x-4">
                   {navigationItems.map((item) => (
                     <NavigationMenuItem key={item.name}>
-                      <Link href={item.href} className={navigationMenuTriggerStyle()}>
+                      <Link href={`/${locale}${item.href}`} className={navigationMenuTriggerStyle()}>
                         {item.name}
                       </Link>
                     </NavigationMenuItem>
@@ -64,7 +78,7 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
                     <button
                       type="button"
                       className="text-gray-700 hover:text-gray-900 focus:outline-none"
-                      aria-label="Open menu"
+                      aria-label={t('menu.open')}
                     >
                       <Menu className="h-6 w-6" />
                     </button>
@@ -74,16 +88,25 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
                       {navigationItems.map((item) => (
                         <Link
                           key={item.name}
-                          href={item.href}
+                          href={`/${locale}${item.href}`}
                           className="text-lg font-medium text-gray-700 hover:text-[#3AA655]"
                         >
                           {item.name}
                         </Link>
                       ))}
+                      {/* Locale switcher for mobile */}
+                      <div className="mt-4">
+                        <LocaleSwitcher />
+                      </div>
                     </div>
                   </SheetContent>
                 </Sheet>
               </div>
+            </div>
+
+            {/* Locale switcher for desktop */}
+            <div className="absolute right-5 top-6 hidden md:block">
+              <LocaleSwitcher />
             </div>
           </div>
         </div>
@@ -95,17 +118,23 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <Image src="/assets/images/mg-clean-logo.png" alt="MG Clean Logo" width={150} height={60} className="mb-4" />
+              <Image
+                src="/assets/images/mg-clean-logo.png"
+                alt="MG Clean Logo"
+                width={150}
+                height={60}
+                className="mb-4"
+              />
               <p className="text-gray-500 text-sm">
-                Professional cleaning services for homes and offices. Providing quality service since 2010.
+                {t('footer.description')}
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Quick Links</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">{t('footer.quickLinks')}</h3>
               <ul className="space-y-2">
                 {navigationItems.slice(0, 4).map((item) => (
                   <li key={item.name}>
-                    <Link href={item.href} className="text-gray-500 hover:text-[#3AA655]">
+                    <Link href={`/${locale}${item.href}`} className="text-gray-500 hover:text-[#3AA655]">
                       {item.name}
                     </Link>
                   </li>
@@ -113,24 +142,24 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Contact Us</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">{t('footer.contactUs')}</h3>
               <address className="not-italic text-gray-500 space-y-2">
-                <p>Oberdorfstr 6</p>
-                <p>6340 Baar, Switzerland</p>
-                <p className="mt-4">Email: info@mg-clean.ch</p>
-                <p>Phone: 075 403 72 04</p>
+                <p>{t('footer.address.street')}</p>
+                <p>{t('footer.address.city')}</p>
+                <p className="mt-4">{t('footer.contact.email')}</p>
+                <p>{t('footer.contact.phone')}</p>
               </address>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-200">
             <p className="text-gray-500 text-sm text-center">
-              © {new Date().getFullYear()} MG Clean. All rights reserved.
+              {t('footer.copyright', { year: new Date().getFullYear() })}
             </p>
           </div>
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default MgCleanDefaultLayout
+export default MgCleanDefaultLayout;

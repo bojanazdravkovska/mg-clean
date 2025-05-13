@@ -1,65 +1,66 @@
+'use client';
+
 import Card from "../atoms/Card"
+import { useTranslations } from "next-intl"
+import { useParams } from 'next/navigation'
 
 interface ServicesSectionProps {
   dashboard?: boolean
 }
 
 export default function ServicesSection({ dashboard = false }: ServicesSectionProps) {
+  const t = useTranslations("home.services")
+  const params = useParams()
+  const locale = params.locale as string
+
   const services = [
     {
-      title: "Property Maintenance",
-      description: "We not only take care of the maintence and care of your property, but also the technical upkeep.",
+      title: t("items.propertyMaintenance.title"),
+      description: t("items.propertyMaintenance.description"),
       image: "/assets/images/property-maintenance.jpg",
-      link: "/property-maintenance",
+      link: `/${locale}/property-maintenance`,
     },
     {
-      title: "Office Cleaning",
-      description:
-        "As a professional office cleaning company, we provide competent support in all aspects of cleanliness and hygiene.",
+      title: t("items.officeCleaning.title"),
+      description: t("items.officeCleaning.description"),
       image: "/assets/images/office-cleaning.jpg",
-      link: "/office-cleaning",
+      link: `/${locale}/office-cleaning`,
     },
     {
-      title: "Window Cleaning",
-      description:
-        "Do you need a streak-free view again? Our experts are happy to take care of your window and glass cleaning.",
+      title: t("items.windowCleaning.title"),
+      description: t("items.windowCleaning.description"),
       image: "/assets/images/window-cleaning.png",
-      link: "/window-cleaning",
+      link: `/${locale}/window-cleaning`,
     },
     {
-      title: "Construction Cleaning",
-      description:
-        "We keep your construction site clean and take care of dust, packaging materials and residual materials during and after the construction phase.",
+      title: t("items.constructionCleaning.title"),
+      description: t("items.constructionCleaning.description"),
       image: "/assets/images/construction-cleaning.jpg",
-      link: "/construction-cleaning",
+      link: `/${locale}/construction-cleaning`,
     },
     {
-      title: "Solar System Cleaning",
-      description:
-        "A clean photovoltaic system produces more energy and thus helps reduce your electricity costs. We clean them sustainably and gently.",
+      title: t("items.solarSystemCleaning.title"),
+      description: t("items.solarSystemCleaning.description"),
       image: "/assets/images/solar-system-cleaning.webp",
-      link: "/solar-system-cleaning",
+      link: `/${locale}/solar-system-cleaning`,
     },
     {
-      title: "Garden Care",
-      description:
-        "The garden is part of your property's calling card. Therefore, we always take great pleasure in nurturing and caring for vibrant green spaces, shrubs, and trees.",
+      title: t("items.gardenCare.title"),
+      description: t("items.gardenCare.description"),
       image: "/assets/images/garden-care.jpg",
-      link: "/garden-care",
+      link: `/${locale}/garden-care`,
     },
     {
-      title: "Evictions",
-      description:
-        "We are your cost-effective and reliable partner for household liquidations and clearances of apartments, houses, shops, offices, etc.",
+      title: t("items.evictions.title"),
+      description: t("items.evictions.description"),
       image: "/assets/images/evictions.png",
-      link: "/evictions",
+      link: `/${locale}/evictions`,
     },
     {
-      title: "Maintenance Cleaning",
-      description:
-        "We're happy to take on recurring cleaning tasks for you at set intervals—daily, weekly, or monthly—whichever you prefer.",
+      title: t("items.maintenanceCleaning.title"),
+      description: t("items.maintenanceCleaning.description"),
       image: "/assets/images/maintenance-cleaning.jpg",
-      link: "/maintenance-cleaning",
+      link: `/${locale}/maintenance-cleaning`,
     },
   ]
 
@@ -69,14 +70,14 @@ export default function ServicesSection({ dashboard = false }: ServicesSectionPr
         {dashboard ? (
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Services</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">{t("title")}</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We offer a wide range of cleaning and maintenance services to meet your needs
+                {t("subtitle")}
               </p>
             </div>
           </div>
         ) : (
-          <h2 className="text-3xl font-bold">Our Services</h2>
+          <h2 className="text-3xl font-bold">{t("title")}</h2>
         )}
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
