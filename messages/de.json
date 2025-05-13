@@ -1,0 +1,790 @@
+{
+  "about": {
+    "hero": {
+      "title": {
+        "part1": "Über",
+        "part2": "Uns"
+      },
+      "subtitle": "\"Qualität bedeutet, es richtig zu machen, wenn niemand hinschaut.\" – Henry Ford"
+    },
+    "sectionTitle": "Unsere Werte",
+    "sectionHeader": "Jeder kann putzen!",
+    "sectionDescription": "Ein guter Reinigungsservice bedeutet mehr als Sauberkeit: Verantwortung, Respekt und Vertrauen. Unsere Mitarbeiter betreten Ihre privaten oder geschäftlichen Räume und begegnen nicht nur Schmutz, sondern auch Ihrer Privatsphäre. Deshalb ist es uns besonders wichtig, dass Sie sich in unserer Gegenwart sicher fühlen.",
+    "values": {
+      "special": {
+        "title": "Was uns besonders macht",
+        "description": "Unser starkes Team ist der Schlüssel zu erstklassigem Service."
+      },
+      "discretion": {
+        "title": "Unsere Diskretion",
+        "description": "Vertrauen und Diskretion stehen bei uns an erster Stelle – Ihre Privatsphäre ist garantiert."
+      },
+      "customerFocus": {
+        "title": "Kundenorientierung",
+        "description": "Ihre Bedürfnisse und Wünsche stehen im Mittelpunkt unseres Handelns."
+      },
+      "longTerm": {
+        "title": "Langfristigkeit",
+        "description": "Wir setzen auf langfristige Zusammenarbeit und kontinuierliche Partnerschaft."
+      },
+      "efficiency": {
+        "title": "Effizienz",
+        "description": "Wir respektieren Ihre Zeit und arbeiten effizient ohne Qualitätsverlust."
+      },
+      "passion": {
+        "title": "Leidenschaft",
+        "description": "Wir setzen uns leidenschaftlich für saubere und gesunde Räume ein."
+      }
+    },
+    "story": {
+      "sectionTitle": "Unsere Geschichte",
+      "title": "Vom kleinen Anfang zum zuverlässigen Service",
+      "p1": "M&G Clean wurde 2017 mit dem einfachen Ziel gegründet: außergewöhnliche Reinigungsdienste zu bieten, die über das Äußere hinausgehen.",
+      "p2": "Unser Gründer, Michael Green, begann mit einem Mopp und einem Eimer und reinigte abends und am Wochenende lokale Büros.",
+      "p3": "Heute betreuen wir mit einem großen Team Hunderte von Kunden in der Region – und bleiben unserem Qualitätsversprechen treu."
+    },
+    "cta": {
+      "title": "Werden Sie Teil unserer zufriedenen Kunden",
+      "subtitle": "Genießen Sie Sauberkeit auf höchstem Niveau – zuverlässig, gründlich und zu Ihrer vollsten Zufriedenheit.",
+      "button": "Unverbindlich anfragen"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Professionelle Reinigungsservices",
+      "subtitle": "Ihr vertrauenswürdiger Partner für Sauberkeit und Hygiene",
+      "cta": "Kostenloses Angebot",
+      "services": "Unsere Leistungen"
+    },
+    "services": {
+      "title": "Unsere Leistungen",
+      "subtitle": "Wir bieten ein breites Spektrum an Reinigungs- und Wartungsdienstleistungen für Ihre Bedürfnisse",
+      "items": {
+        "propertyMaintenance": {
+          "title": "Immobilienwartung",
+          "description": "Wir kümmern uns nicht nur um die Wartung und Pflege Ihrer Immobilie, sondern auch um die technische Instandhaltung."
+        },
+        "officeCleaning": {
+          "title": "Büroreinigung",
+          "description": "Als professionelles Büroreinigungsunternehmen bieten wir kompetente Unterstützung in allen Bereichen der Sauberkeit und Hygiene."
+        },
+        "windowCleaning": {
+          "title": "Fensterreinigung",
+          "description": "Benötigen Sie wieder einen streifenfreien Durchblick? Unsere Experten kümmern sich gerne um Ihre Fenster- und Glasreinigung."
+        },
+        "constructionCleaning": {
+          "title": "Baureinigung",
+          "description": "Wir halten Ihre Baustelle sauber und kümmern uns um Staub, Verpackungsmaterialien und Reststoffe während und nach der Bauphase."
+        },
+        "solarSystemCleaning": {
+          "title": "Solaranlagenreinigung",
+          "description": "Eine saubere Photovoltaikanlage produziert mehr Energie und hilft so, Ihre Stromkosten zu senken. Wir reinigen sie nachhaltig und schonend."
+        },
+        "gardenCare": {
+          "title": "Gartenpflege",
+          "description": "Der Garten ist Teil der Visitenkarte Ihrer Immobilie. Daher haben wir immer große Freude daran, lebendige Grünflächen, Sträucher und Bäume zu pflegen und zu hegen."
+        },
+        "evictions": {
+          "title": "Räumungen",
+          "description": "Wir sind Ihr kostengünstiger und zuverlässiger Partner für Haushaltsauflösungen und Räumungen von Wohnungen, Häusern, Geschäften, Büros etc."
+        },
+        "maintenanceCleaning": {
+          "title": "Unterhaltsreinigung",
+          "description": "Wir übernehmen gerne wiederkehrende Reinigungsaufgaben für Sie in festgelegten Intervallen – täglich, wöchentlich oder monatlich, ganz nach Ihren Wünschen."
+        }
+      }
+    },
+    "quote": {
+      "title": "Angebot anfordern",
+      "subtitle": "Kontaktieren Sie uns für eine maßgeschneiderte Reinigungslösung",
+      "form": {
+        "name": "Ihr Name",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "service": "Leistungsart",
+        "message": "Zusätzliche Informationen",
+        "submit": "Anfrage senden"
+      }
+    },
+    "clients": {
+      "title": "Unsere Kunden",
+      "subtitle": "Hören Sie, was unsere zufriedenen Kunden über uns sagen",
+      "testimonials": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "role": "Hauseigentümerin",
+          "text": "MG Clean hat meine Fenster verwandelt! Sie waren professionell, gründlich und haben alles makellos hinterlassen. Sehr zu empfehlen!"
+        },
+        "mark": {
+          "name": "Mark Thompson",
+          "role": "Büroleiter",
+          "text": "Wir nutzen MG Clean seit über einem Jahr für unser Büro. Ihre Aufmerksamkeit für Details und Zuverlässigkeit ist unübertroffen."
+        },
+        "emma": {
+          "name": "Emma Davis",
+          "role": "Immobilienverwalterin",
+          "text": "Der Gartenreinigungsservice war ausgezeichnet. Sie haben jahrelangen Wildwuchs beseitigt und unseren Außenbereich verwandelt."
+        },
+        "liam": {
+          "name": "Liam Smith",
+          "role": "Geschäftsinhaber",
+          "text": "Das Team von MG Clean ist immer pünktlich und effizient. Unsere Geschäftsräume haben noch nie besser ausgesehen!"
+        },
+        "olivia": {
+          "name": "Olivia Brown",
+          "role": "Mieterin",
+          "text": "Ich war erstaunt, wie makellos meine Wohnung nach ihrer Auszugsreinigung war. Habe meine volle Kaution zurückbekommen!"
+        }
+      },
+      "navigation": {
+        "previous": "Vorheriges Testimonial",
+        "next": "Nächstes Testimonial",
+        "goTo": "Zum Testimonial"
+      }
+    },
+    "cantonTabs": {
+      "tabs": {
+        "zurich": "Zürich",
+        "aargau": "Aargau",
+        "aarau": "Aarau"
+      },
+      "zurich": {
+        "title": "Reinigungspersonal für Büroreinigung in Zürich (Stadt)",
+        "responsibilities": {
+          "title": "Aufgabenbereich:",
+          "items": [
+            "Unterhaltsreinigung von Büroräumen",
+            "Unterhaltsreinigung von Sanitärbereichen etc."
+          ]
+        },
+        "requirements": {
+          "title": "Anforderungen:",
+          "items": [
+            "Mehrjährige Erfahrung in der Unterhaltsreinigung",
+            "Körperlich fit, motiviert, zuverlässig und belastbar",
+            "Höflicher Umgang mit Kunden / gepflegtes Äußeres",
+            "Selbstständiges Arbeiten und Teamfähigkeit",
+            "Wohnhaft in der Nähe der Stadt Zürich"
+          ]
+        },
+        "operatingTimes": {
+          "title": "Arbeitszeiten:",
+          "items": ["Wochenende"]
+        }
+      },
+      "aargau": {
+        "title": "Reinigungspersonal im Kanton Aargau",
+        "responsibilities": {
+          "title": "Aufgabenbereich:",
+          "items": [
+            "Reinigung von Treppenhäusern"
+          ]
+        },
+        "requirements": {
+          "title": "Anforderungen:",
+          "items": [
+            "Erfahrung als Reinigungskraft",
+            "Führerschein min. Kategorie B",
+            "Körperlich fit, motiviert, zuverlässig und belastbar",
+            "Höflicher Umgang mit Kunden / gepflegtes Äußeres",
+            "Selbstständiges Arbeiten und Teamfähigkeit",
+            "Gute Deutschkenntnisse",
+            "Wohnhaft im Kanton Aargau"
+          ]
+        },
+        "operatingTimes": {
+          "title": "Arbeitszeiten:",
+          "items": ["Montag-Freitag 8:00 Uhr bis 17:30 Uhr"]
+        }
+      },
+      "aarau": {
+        "title": "Reinigungspersonal für Büroreinigung im Raum Aarau",
+        "responsibilities": {
+          "title": "Aufgabenbereich:",
+          "items": [
+            "Unterhaltsreinigung von Büroräumen",
+            "Unterhaltsreinigung von Sanitärbereichen etc."
+          ]
+        },
+        "requirements": {
+          "title": "Anforderungen:",
+          "items": [
+            "Mehrjährige Erfahrung in der Unterhaltsreinigung",
+            "Körperlich fit, motiviert, zuverlässig und belastbar",
+            "Höflicher Umgang mit Kunden / gepflegtes Äußeres",
+            "Selbstständiges Arbeiten und Teamfähigkeit",
+            "Gute Deutschkenntnisse",
+            "Wohnhaft in der Nähe von Aarau"
+          ]
+        },
+        "operatingTimes": {
+          "title": "Arbeitszeiten:",
+          "items": ["Montag bis Freitag ca. 16:00 Uhr bis 19:00 Uhr"]
+        }
+      }
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "prices": "Preise",
+    "references": "Referenzen",
+    "sustainability": "Nachhaltigkeit",
+    "jobs": "Jobs",
+    "contact": "Kontakt",
+    "language": {
+      "en": "Englisch",
+      "de": "Deutsch"
+    },
+    "menu": {
+      "open": "Menü öffnen",
+      "close": "Menü schließen"
+    },
+    "footer": {
+      "description": "Professionelle Reinigungsservices für Wohnungen und Büros. Qualitätsservice seit 2010.",
+      "quickLinks": "Schnelllinks",
+      "contactUs": "Kontakt",
+      "address": {
+        "street": "Oberdorfstr 6",
+        "city": "6340 Baar, Schweiz"
+      },
+      "contact": {
+        "email": "E-Mail: info@mg-clean.ch",
+        "phone": "Telefon: 075 403 72 04"
+      },
+      "copyright": "© {year} MG Clean. Alle Rechte vorbehalten."
+    }
+  },
+  "quotation": {
+    "title": "Jetzt unverbindlich anfragen!",
+    "description": "Benötigen Sie professionelle Immobilienwartung, Reinigung oder Gartenpflege? Kontaktieren Sie uns für ein kostenloses, unverbindliches Angebot. Wir beraten Sie gerne und finden die richtige Lösung für Ihre Bedürfnisse!",
+    "form": {
+      "title": "Angebotsanfrage",
+      "service": {
+        "label": "Leistung",
+        "placeholder": "Bitte auswählen",
+        "options": {
+          "propertyMaintenance": "Immobilienwartung",
+          "movingCleaning": "Umzugsreinigung",
+          "officeCleaning": "Büroreinigung",
+          "windowCleaning": "Fensterreinigung",
+          "maintenanceCleaning": "Unterhaltsreinigung",
+          "gardenCare": "Gartenpflege",
+          "disposal": "Räumung/Entsorgung",
+          "other": "Andere"
+        }
+      },
+      "canton": {
+        "label": "Ihr Kanton",
+        "options": {
+          "aargau": "Aargau",
+          "zurich": "Zürich",
+          "lucerne": "Luzern",
+          "other": "Andere"
+        }
+      },
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "phone": "Ihre Telefonnummer",
+      "date": "Gewünschtes Datum",
+      "remarks": "Bemerkungen",
+      "submit": "Absenden"
+    }
+  },
+  "references": {
+    "title": "Unsere Referenzen",
+    "description": "Eine Auswahl unserer Referenzen.",
+    "subDescription": "Gerne zeigen wir Ihnen auf Anfrage weitere Referenzen.",
+    "hero": {
+      "title": "Unsere Referenzen",
+      "subtitle": "Erfolgreiche Projekte, zufriedene Kunden und messbare Ergebnisse"
+    },
+    "clients": {
+      "title": "Unsere Dienstleistungen werden genutzt von:"
+    },
+    "clientTypes": {
+      "publicAdministrations": "Öffentliche Verwaltungen",
+      "restaurants": "Restaurants",
+      "practices": "Praxen",
+      "schools": "Schulen",
+      "industrialCompanies": "Industrieunternehmen",
+      "retail": "Einzelhandel",
+      "fitnessCenter": "Fitnesscenter",
+      "hotels": "Hotels",
+      "publicInstitutions": "Öffentliche Einrichtungen"
+    }
+  },
+  "constructionCleaning": {
+    "hero": {
+      "title": {
+        "part1": "Bau",
+        "part2": "reinigung"
+      },
+      "subtitle": "Professionelle Baureinigungsdienste, um Ihre Baustelle in perfektem Zustand zu halten"
+    },
+    "section1": {
+      "title": "Baureinigung - bis zum letzten Schliff",
+      "description": "Suchen Sie einen flexiblen und kompetenten Baureinigungs-Partner, der die Baureinigung während der gesamten Bauphase für Sie durchführt? Dann sind Sie hier genau richtig! Wir begleiten Sie vom Baubeginn bis zur Schlüsselübergabe und sorgen dafür, dass Ihre Baustelle von Anfang bis Ende sauber und gepflegt bleibt."
+    },
+    "section2": {
+      "title": "Baureinigung von Experten",
+      "description": "Unser Team liefert zuverlässige Baureinigung, von der Grobreinigung bis zum letzten Schliff vor der Übergabe. Wir koordinieren mit allen Beteiligten, um sicherzustellen, dass Ihr Projekt makellos, sicher und bereit für die nächste Phase ist. Mit flexibler Terminplanung und Liebe zum Detail stellen wir sicher, dass nichts dem Zufall überlassen bleibt - damit Sie sich auf das Bauen konzentrieren können, nicht auf die Reinigung.",
+      "features": {
+        "siteVisit": "Kostenlose Vor-Ort-Besichtigung & Beratung",
+        "delivery": "Liefergarantie für jedes Projekt",
+        "response": "Schnelle Reaktion & flexible Terminplanung",
+        "equipment": "Moderne Ausrüstung & umweltfreundliche Methoden",
+        "team": "Vollständig versichertes & zertifiziertes Team"
+      },
+      "contact": {
+        "title": "Sie können uns jederzeit kontaktieren!"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": {
+        "part1": "Kontakt",
+        "part2": "uns"
+      },
+      "description": "Haben Sie Fragen oder möchten Sie ein individuelles Angebot? Kontaktieren Sie uns – wir freuen uns auf Ihre Nachricht! Nutzen Sie unser Formular, rufen Sie uns an oder senden Sie uns eine E-Mail. Wir helfen Ihnen gerne!"
+    },
+    "form": {
+      "title": "Angebotsanfrage",
+      "service": {
+        "label": "Leistung",
+        "placeholder": "Bitte auswählen",
+        "options": {
+          "propertyMaintenance": "Immobilienwartung",
+          "movingCleaning": "Umzugsreinigung",
+          "officeCleaning": "Büroreinigung",
+          "windowCleaning": "Fensterreinigung",
+          "maintenanceCleaning": "Unterhaltsreinigung",
+          "gardenCare": "Gartenpflege",
+          "disposal": "Entrümpelung/Entsorgung",
+          "other": "Sonstiges"
+        }
+      },
+      "canton": {
+        "label": "Ihr Kanton",
+        "required": "Erforderlich",
+        "options": {
+          "aargau": "Aargau",
+          "zurich": "Zürich",
+          "lucerne": "Luzern",
+          "other": "Sonstiges"
+        }
+      },
+      "name": {
+        "label": "Ihr Name",
+        "required": "Erforderlich"
+      },
+      "email": {
+        "label": "Ihre E-Mail",
+        "required": "Erforderlich"
+      },
+      "phone": {
+        "label": "Ihre Telefonnummer"
+      },
+      "date": {
+        "label": "Gewünschtes Datum"
+      },
+      "remarks": {
+        "label": "Bemerkungen"
+      },
+      "submit": "Absenden"
+    },
+    "info": {
+      "title": "M&G clean",
+      "name": "Herr Liman Dalipi",
+      "address": "Oberdorfstr 6",
+      "phone": "0754037204",
+      "email": "info@mg-clean.ch",
+      "social": {
+        "title": "Folgen Sie uns auf Social Media:"
+      }
+    }
+  },
+  "evictions": {
+    "hero": {
+      "title": "Räumungen",
+      "subtitle": "Professionelle Räumungsdienste"
+    },
+    "section1": {
+      "title": "Räumungen & Entsorgungen",
+      "description": "Räumungen können sehr stressig sein. Entspannen Sie sich und lassen Sie uns Ihre Immobilie räumen. Wir sind Ihre Profis, wenn es um Räumungen, Ausräumungen und Entsorgungen geht. Wir räumen Ihre Immobilie und reinigen sie gründlich. Von Dachböden bis zu Garagen, von Klavieren bis zu Holzschränken – wir räumen und entsorgen alle Materialien. Dazu gehören auch Spezialmaterialien wie Farben, Reinigungsmittel, Säuren etc. Profitieren Sie von unseren günstigen Preisen. Die Entsorgungsgebühren werden direkt an Sie weitergegeben. Sie zahlen nur für die Arbeit!",
+      "subDescription": "Ob Haushaltsauflösungen, Räumungen, Firmenauflösungen oder chaotische Wohnungen – wir sind für jedes Chaos gerüstet!"
+    },
+    "section2": {
+      "title": "Umweltfreundliche Entsorgung",
+      "description": "Umweltschutz hat bei uns höchste Priorität. Wir bieten eine konforme Mülltrennung für Räumungen, Ausräumungen und Entsorgungsdienste. Dies kommt nicht nur der Umwelt zugute, sondern spart Ihnen als Kunden auch erheblich Geld. Die Entsorgungskosten variieren je nach Material. So ist zum Beispiel die Entsorgung von Holz fast 20% günstiger als die Entsorgung von Sperrmüll. Nicht mehr benötigte Materialien werden recycelt. Mit unserer Mülltrennung stellen wir die kostengünstigste Räumung sicher."
+    },
+    "partner": {
+      "title": "Unser Partner für umweltfreundliche Entsorgung",
+      "subtitle": "Gemeinsam für eine nachhaltige Zukunft"
+    },
+    "services": {
+      "title": "Leistungen",
+      "items": {
+        "houseClearances": "Haushaltsauflösungen",
+        "evictions": "Räumungen",
+        "cellarClearances": "Kellerräumungen",
+        "largeScaleClearances": "Großräumungen",
+        "companyDissolutions": "Firmenauflösungen",
+        "householdClearances": "Haushaltsauflösungen",
+        "clearances": "Räumungen"
+      },
+      "description": "Als Räumungsunternehmen erstellen wir Ihnen nach einer Vorabbesichtigung ein optimales Angebot. Wir gewähren Ihnen einen Kredit für Gegenstände, die wir mit Ihrer Zustimmung weiterverkaufen können. Wenn Sie nach der Räumung eine Endreinigung wünschen, bieten wir diese natürlich gerne an, inklusive Kaufgarantie."
+    }
+  },
+  "gardenCare": {
+    "hero": {
+      "title": {
+        "part1": "Garten",
+        "part2": "Pflege"
+      },
+      "subtitle": "Professionelle Gartenpflege für einen perfekten Zustand Ihrer Gärten"
+    },
+    "section1": {
+      "title": "Professionelle Gartenpflege",
+      "description": "Ein Garten ist etwas Wunderbares! Ein Ort zum Entspannen und Genießen, zum Feiern und Wohlfühlen. Weniger beliebt ist jedoch die zeitaufwändige und körperlich anstrengende Arbeit beim Hecken- oder Baumschnitt. Mit unseren Dienstleistungen können Sie die Ruhe und Beschaulichkeit Ihres Grundstücks genießen und die Gartenpflege erfahrenen und motivierten Gärtnern überlassen, die mit Leidenschaft und Liebe zum Detail sowohl die Gartengestaltung als auch wiederkehrende Aufgaben wie Baumschnitt und Strauchschnitt übernehmen."
+    },
+    "services": {
+      "title": "Leistungen",
+      "items": {
+        "lawnCutting": "Rasenmähen",
+        "formativePruning": "Formgehölzschnitt",
+        "planting": "Bepflanzung",
+        "scarification": "Vertikutieren",
+        "leafRemoval": "Laubentfernung",
+        "discountMaintenance": "Rabattwartung",
+        "treePruning": "Baumschnitt",
+        "winterService": "Winterservice",
+        "fertilize": "Düngen",
+        "lawnRenovation": "Rasensanierung",
+        "hedgeTrimming": "Heckenschnitt",
+        "shrubCutting": "Strauchschnitt"
+      }
+    },
+    "aargau": {
+      "title": "Ihre Gartenpflege im Aargau",
+      "description": "Gärtnern ist für viele Menschen eine entspannende und erfüllende Tätigkeit. Im Aargau kann es jedoch besonders herausfordernd sein, da das wechselhafte Klima und die besonderen Bodenverhältnisse eine spezielle Pflege erfordern. Mit den richtigen Tipps und Tricks kann jedoch auch ein Garten im Aargau erfolgreich gepflegt und gestaltet werden. Wer sich beim Gärtnern im Aargau unsicher ist oder die Zeit dafür fehlt, kann auch die Hilfe professioneller Gärtner in Anspruch nehmen. Diese kennen die besonderen Herausforderungen des Aargauer Klimas und Bodens und können bei der Gartenpflege unterstützen."
+    },
+    "advantages": {
+      "title": "Professionelle Gartenpflege bietet viele Vorteile",
+      "items": {
+        "experience": {
+          "title": "Erfahrung und Expertise",
+          "description": "Professionelle Gärtner verfügen über umfangreiche Kenntnisse in Pflanzen, Böden und Pflegepraktiken, die sie im Gartenbau einsetzen können"
+        },
+        "timeSaving": {
+          "title": "Zeitersparnis",
+          "description": "Durch die Beauftragung eines professionellen Gärtners sparen Sie die Zeit und Mühe, die für die Gartenpflege erforderlich ist."
+        },
+        "yearRound": {
+          "title": "Ganzjährige Pflege",
+          "description": "Professionelle Gärtner bieten oft eine ganzjährige Pflege an, um sicherzustellen, dass Ihr Garten in jeder Jahreszeit optimal gepflegt wird."
+        },
+        "propertyValue": {
+          "title": "Wertsteigerung der Immobilie",
+          "description": "Ein gut gepflegter Garten kann den Wert Ihrer Immobilie steigern, was sich positiv auf den Wiederverkaufswert auswirken kann."
+        },
+        "environmental": {
+          "title": "Umweltfreundlichkeit",
+          "description": "Professionelle Gärtner verwenden oft umweltfreundliche Methoden und Produkte zur Gartenpflege, was zu einem positiven Beitrag für die Umwelt führen kann."
+        },
+        "quality": {
+          "title": "Verbesserung der Gartenqualität",
+          "description": "Professionelle Gartenpflege verbessert die Gesundheit und Schönheit Ihres Gartens, was zu einer höheren Lebensqualität und einer angenehmeren Zeit im Freien führen kann."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "hero": {
+      "title": {
+        "part1": "Arbeiten bei",
+        "part2": "M&G",
+        "part3": "Clean"
+      },
+      "subtitle": "Werden Sie Teil unseres Teams und erleben Sie etwas Besonderes."
+    },
+    "reasons": {
+      "title": "Gute Gründe, bei M&G Clean zu arbeiten:",
+      "items": {
+        "equipment": {
+          "title": "Moderne Techniken und Ausrüstung",
+          "description": "Wir bieten modernste Reinigungstechnologien und hochwertige Ausrüstung."
+        },
+        "hours": {
+          "title": "Flexible Arbeitszeiten",
+          "description": "Wir bieten flexible Arbeitszeiten, die auf die individuellen Bedürfnisse unserer Mitarbeiter abgestimmt sind."
+        },
+        "locations": {
+          "title": "Vielfältige Einsatzorte",
+          "description": "Sie mögen Abwechslung? Wir bieten eine Vielzahl von Jobs an verschiedenen Standorten."
+        }
+      }
+    },
+    "canton": {
+      "title": "In welchem Kanton möchten Sie arbeiten?"
+    },
+    "application": {
+      "email": "info@mg-clean.ch",
+      "description": "Bitte senden Sie uns Ihre Bewerbung an die oben genannte Adresse.",
+      "note": "Bitte beachten Sie, dass Bewerbungen nur per E-Mail oder Brief angenommen werden."
+    }
+  },
+  "maintenanceCleaning": {
+    "hero": {
+      "title": {
+        "part1": "Unterhalts",
+        "part2": "reinigung"
+      },
+      "subtitle": "Professionelle Unterhaltsreinigungsdienste, um Ihre Immobilie in perfektem Zustand zu halten"
+    },
+    "section1": {
+      "title": "Unterhaltsreinigung für jeden Bedarf",
+      "description": "Die Unterhaltsreinigung ist ein wichtiger Bestandteil der Gebäudereinigung und trägt wesentlich dazu bei, dass sich Menschen in ihrer Umgebung wohl und sicher fühlen. Regelmäßige Reinigung gewährleistet nicht nur Sauberkeit und Hygiene, sondern trägt auch zur Werterhaltung von Gebäuden und Anlagen bei.",
+      "subDescription": "Gemeinsam besprechen wir Ihre individuellen Anforderungen, um Ihnen ein optimales Angebot für Ihre Unterhaltsreinigung zu unterbreiten."
+    },
+    "services": {
+      "title": "Unsere Leistungen in der Unterhaltsreinigung",
+      "items": {
+        "restaurant": "Restaurantreinigung / Catering",
+        "office": "Büroreinigung",
+        "kindergarten": "Kindergartenreinigung",
+        "shop": "Geschäftsreinigung",
+        "house": "Haus- & Wohnungsreinigung",
+        "practice": "Praxisreinigung",
+        "cinema": "Kinoreinigung",
+        "hotel": "Hotelreinigung",
+        "shoppingCenter": "Einkaufszentrumreinigung",
+        "industrial": "Industriereinigung",
+        "event": "Eventreinigung",
+        "publicInstitutes": "Reinigung öffentlicher Einrichtungen"
+      },
+      "description": "Ob für Büros, öffentliche Einrichtungen oder private Haushalte – mit uns als Partner für die Unterhaltsreinigung sind Sie immer auf der sicheren Seite. Kontaktieren Sie uns jetzt und lassen Sie uns gemeinsam eine maßgeschneiderte Lösung für Ihre Reinigungsbedürfnisse finden. Lassen Sie sich von uns überzeugen und werden Sie bald einer unserer zufriedenen Kunden. Kontaktieren Sie uns unter unserer gebührenfreien Nummer 056 558 88 92. Sie können auch das Kontaktformular nutzen und einen Rückruf anfordern."
+    }
+  },
+  "officeCleaning": {
+    "hero": {
+      "title": {
+        "part1": "Büro",
+        "part2": "reinigung"
+      },
+      "subtitle": "Professionelle Büroreinigungsdienste, um Ihr Büro in perfektem Zustand zu halten"
+    },
+    "quotation": {
+      "title": "Jetzt unverbindlich anfragen!",
+      "description": "Haben Sie viel zu tun und wenig Zeit, sich um die Sauberkeit Ihres Büros zu kümmern? Mit professioneller Büroreinigung von M&G Clean möchten wir Ihnen den Druck nehmen. Wir führen die Büroreinigung gerne mit sorgfältig ausgewählten Fachkräften durch. Ob tagsüber, abends oder am Wochenende – wir entwickeln gerne gemeinsam mit Ihnen einen Reinigungsplan. Regelmäßige und professionell durchgeführte Büroreinigung trägt zur langfristigen Gesundheit von Menschen und Gebäuden bei.",
+      "subDescription": "Unsere langjährige Erfahrung in der Büroreinigungsbranche ermöglicht es uns, maßgeschneiderte Reinigungslösungen anzubieten, die genau auf die spezifischen Bedürfnisse Ihres Unternehmens zugeschnitten sind. Von der täglichen Unterhaltsreinigung bis hin zu spezialisierten Dienstleistungen wie Teppich- und Bodenreinigung, Fensterreinigung, Oberflächenreinigung und Desinfektion bieten wir ein umfassendes Servicepaket."
+    },
+    "features": {
+      "trustworthy": "Vertrauenswürdig und diskret",
+      "maintained": "Für eine gut gepflegte Arbeitsumgebung"
+    }
+  },
+  "prices": {
+    "hero": {
+      "title": "Reinigung zu fairen Preisen",
+      "subtitle": "Wir legen Wert auf kosteneffiziente Reinigung ohne Kompromisse bei der Qualität."
+    },
+    "tags": {
+      "fair": {
+        "title": "Fair",
+        "description": "Im Einklang mit der Qualität"
+      },
+      "transparent": {
+        "title": "Transparent",
+        "description": "Verstehen Sie, wofür Sie bezahlen"
+      },
+      "longTerm": {
+        "title": "Langfristig",
+        "description": "Mit wettbewerbsfähigen Preisen"
+      }
+    },
+    "priceTransparency": {
+      "title": "Preistransparenz und Qualität",
+      "description": "Der Wert unserer Reinigungsdienstleistungen sollte sich nicht nur in Zahlen ausdrücken, sondern auch in der Qualität der erbrachten Leistungen und der Zufriedenheit unserer Kunden."
+    },
+    "infoCards": {
+      "fairPrice": {
+        "title": "Faires Preis-Leistungs-Verhältnis",
+        "description": "Unsere Preise sind nicht nur transparent, sondern spiegeln auch unser Engagement für erstklassige Reinigungsdienstleistungen wider.",
+        "tagline": "Qualität, die Sie sich leisten können."
+      },
+      "customized": {
+        "title": "Maßgeschneiderte Servicepakete",
+        "description": "HAREGA bietet Ihnen anpassbare Pakete, die Ihren individuellen Bedürfnissen entsprechen.",
+        "tagline": "Maßgeschneiderter Service"
+      },
+      "quality": {
+        "title": "Qualität hat Vorrang",
+        "description": "Wir legen großen Wert auf Qualität und sind überzeugt, dass qualitativ hochwertige Reinigungsdienstleistungen ihren eigenen Wert schaffen.",
+        "tagline": "Qualität setzt den Ton"
+      },
+      "transparent": {
+        "title": "Transparente Preisgestaltung",
+        "description": "Wir erklären Ihnen gerne, welche Leistungen enthalten sind und stehen für alle Ihre Fragen zur Verfügung.",
+        "tagline": "Transparenz stärkt Vertrauen"
+      },
+      "satisfaction": {
+        "title": "Kundenorientierte Zufriedenheit",
+        "description": "Ihre Zufriedenheit treibt uns an. Unser freundliches und professionelles Team ist bereit, sich Ihren spezifischen Bedürfnissen anzupassen.",
+        "tagline": "Kunde ist Partner."
+      },
+      "value": {
+        "title": "Langfristige Werterhaltung",
+        "description": "HAREGA strebt nicht nur nach kurzfristiger Kundenzufriedenheit, sondern auch nach langfristiger Kosteneffizienz für Ihr Unternehmen.",
+        "tagline": "Langfristige Kosteneffizienz."
+      }
+    },
+    "trustBanner": {
+      "title": "Es geht nicht nur um Sauberkeit, es geht um Vertrauen!",
+      "description": "Sauberkeit allein reicht nicht aus. Wir bauen ein Fundament des Vertrauens mit transparenter Preisgestaltung und zuverlässiger Reinigung."
+    },
+    "whyPrice": {
+      "title": "Warum ist der richtige Preis entscheidend?",
+      "description": "Ein fairer Preis ermöglicht es uns, qualifizierte und erfahrene Reinigungskräfte einzustellen und angemessen zu bezahlen. Dies garantiert nicht nur gründliche Reinigung, sondern auch professionellen Service. Reinigungskräfte haben oft Zugang zu sensiblen Informationen in Ihren Räumlichkeiten. Ein Unternehmen, das sich auf den niedrigsten Preis konzentriert, kann möglicherweise nicht die notwendigen Sicherheitsvorkehrungen treffen, um diese Informationen zu schützen.",
+      "conclusion": "Die Wahl des richtigen Reinigungsunternehmens ist entscheidend, um nicht nur eine saubere, sondern auch eine sichere und geschützte Umgebung zu gewährleisten. Wir sind stolz darauf, dieses Gleichgewicht zu bieten und Ihnen den besten Wert für Ihr Vertrauen zu geben.",
+      "cta": "Kontaktieren Sie uns für eine Beratung. Wir freuen uns darauf, Sie persönlich kennenzulernen und gemeinsam die besten Lösungen für Ihre Reinigungsbedürfnisse zu finden."
+    }
+  },
+  "propertyMaintenance": {
+    "hero": {
+      "title": {
+        "part1": "Immobilien",
+        "part2": "wartung"
+      },
+      "subtitle": "Professionelle Immobilienwartungsdienste, um Ihre Immobilie in perfektem Zustand zu halten"
+    },
+    "section1": {
+      "title": "Ihr Hauswartungsunternehmen für professionelle Immobilienwartung",
+      "description": "Unser Team besteht aus hochqualifizierten und erfahrenen Hauswarten mit umfangreichen Kenntnissen und Expertise in allen Aspekten der Gebäudewartung. Wir bieten unseren Kunden maßgeschneiderte Immobilienwartungsdienste, die auf die spezifischen Bedürfnisse jedes Kunden zugeschnitten sind.",
+      "description2": "Als zuverlässiges Immobilienverwaltungsunternehmen verstehen wir, dass das Erscheinungsbild und der Zustand eines Gebäudes den Eindruck, den es auf Kunden und Gäste macht, stark beeinflussen. Daher bemühen wir uns stets, sicherzustellen, dass alle von uns verwalteten Gebäude in perfektem Zustand sind, sei es durch Innenreinigung, Außenwartung oder Behebung technischer Probleme.",
+      "description3": "Mit M&G Clean profitieren Sie von einem einzigen Ansprechpartner für alle Bereiche: vom Heizungsraum über das Treppenhaus bis zum Garten. Unsere Immobilienwartungsdienste umfassen nicht nur die regelmäßige Wartung und Reparatur technischer Geräte, sondern auch die Reinigung und Pflege der Innen- und Außenbereiche Ihrer Immobilie."
+    },
+    "section2": {
+      "title": "Ein Hauswart ist ein Allrounder – reinigen, reparieren, warten, überwachen.",
+      "description": "Ein Hauswartungsunternehmen ist für die Instandhaltung und Wartung von Wohn- und Geschäftsgebäuden, Industriegebäuden, Schulen und öffentlichen Gebäuden verantwortlich. Ihre Aufgaben und Verantwortlichkeiten variieren je nach Größe und technischer Ausstattung der Immobilie. Es wird zwischen Hauswarten mit überwiegend praktischen Aufgaben und solchen mit überwiegend organisatorischen Aufgaben unterschieden.",
+      "description2": "Wir bieten auch umfassende organisatorische Unterstützung, von der Koordination von Handwerkern bis zur Verwaltung von Dokumentation. Durch die Zusammenarbeit mit M&G Clean können Sie sich darauf verlassen, dass alle Aspekte Ihrer Immobilie professionell und effizient behandelt werden, sodass Sie sich auf Ihr Kerngeschäft konzentrieren können."
+    },
+    "section3": {
+      "title": "Immobilienwartung ist eine Vertrauenssache.",
+      "description": "Wir bieten ein umfassendes Spektrum an Facility-Management-Dienstleistungen. Wie unser Name M&G Clean bereits vermuten lässt, umfasst unser Unternehmen alle für eine optimale Immobilienwartung erforderlichen Dienstleistungen.",
+      "description2": "Mit über 1000 Wohnungen in verschiedenen Immobilien unter unserer Verwaltung zeichnen wir uns durch einen flexiblen, kundenorientierten Service aus, der sowohl auf Immobilienverwaltungsgesellschaften als auch auf Privatkunden ausgerichtet ist.",
+      "description3": "Vertrauen Sie M&G Clean für zuverlässige, professionelle und umfassende Immobilienwartungslösungen, die auf Ihre Bedürfnisse zugeschnitten sind."
+    },
+    "section4": {
+      "title": "Rundum gut gewartet.",
+      "description": "Die uns übertragenen Aufgaben werden termingerecht und professionell erledigt. Wir unterstützen Sie bei Aufgaben wie kleineren Reparaturen, Wartungsarbeiten und Immobilienreinigung. Unser geschultes Team kümmert sich auch um die ordnungsgemäße Entsorgung von Sperrmüll und die Ausräumung chaotischer Wohnungen. Kontaktieren Sie uns gerne, wenn Sie fachkundige Unterstützung benötigen. Wir kümmern uns um professionelle Immobilienwartung."
+    }
+  },
+  "solarSystemCleaning": {
+    "hero": {
+      "title": "Solaranlagenreinigung",
+      "subtitle": "Professionelle Solaranlagenreinigung für einen perfekten Zustand Ihrer Solaranlagen"
+    },
+    "pillars": {
+      "sustainable": {
+        "title": "Nachhaltig",
+        "description": "Wir legen großen Wert auf Nachhaltigkeit und Umweltschutz. Deshalb verwenden wir ausschließlich Osmosewasser zur Reinigung Ihrer Photovoltaikanlage."
+      },
+      "efficient": {
+        "title": "Effizient",
+        "description": "Eine saubere Photovoltaikanlage produziert mehr Energie und hilft so, Ihre Stromkosten zu senken. Unsere professionelle Reinigung stellt sicher, dass Ihre Anlage langfristig effizient arbeitet."
+      },
+      "secure": {
+        "title": "Sicher",
+        "description": "Die Sicherheit Ihrer Solaranlage und unseres Reinigungsteams liegt uns sehr am Herzen. Daher halten wir bei jeder Reinigung die höchsten Sicherheitsstandards ein."
+      }
+    },
+    "importance": {
+      "title": "Warum die regelmäßige Reinigung Ihrer Photovoltaikanlage wichtig ist",
+      "description": "Verschmutzungen, Staub, Vogelkot und Umwelteinflüsse können dazu führen, dass Photovoltaikanlagen an Effizienz verlieren. Regelmäßige Reinigung verlängert nicht nur die Lebensdauer Ihrer Solaranlage, sondern steigert auch die Energieproduktion – und spart damit Geld."
+    },
+    "efficiency": {
+      "title": "Wir gewährleisten maximale Effizienz Ihrer Photovoltaikanlage",
+      "description": "Wir bieten eine effiziente, umweltfreundliche und kostengünstige Lösung für die optimale Wartung Ihrer Solarmodule. Unsere Reinigungsprofis verwenden moderne, schonende Techniken und umweltfreundliche Ausrüstung, um die Module zu reinigen, ohne sie zu beschädigen."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "questions": {
+        "frequency": {
+          "question": "Wie oft sollte ich meine Photovoltaikanlage reinigen lassen?",
+          "answer": "Es wird empfohlen, die Solaranlage mindestens einmal im Jahr zu reinigen, abhängig von den Umgebungsbedingungen."
+        },
+        "selfCleaning": {
+          "question": "Kann ich meine Solaranlage selbst reinigen?",
+          "answer": "Unsachgemäße Reinigung kann die Module beschädigen. Wir empfehlen die Beauftragung eines Fachmanns."
+        },
+        "methods": {
+          "question": "Welche Reinigungsmethoden verwenden Sie?",
+          "answer": "Wir verwenden ausschließlich Osmosewasser und schonende Techniken zur Pflege Ihrer Solarmodule."
+        }
+      }
+    }
+  },
+  "sustainability": {
+    "hero": {
+      "title": {
+        "part1": "Nachhaltige",
+        "part2": "Reinigung"
+      },
+      "subtitle": "Mit umweltfreundlichen Reinigungsmethoden für eine grünere Zukunft.",
+      "imageAlt": "Nachhaltige Reinigung"
+    },
+    "pillars": {
+      "ecological": {
+        "title": "Ökologisch",
+        "description": "Durch effiziente Technologien und bewusstes Abfallmanagement minimieren wir aktiv unseren ökologischen Fußabdruck."
+      },
+      "economic": {
+        "title": "Ökonomisch",
+        "description": "Die wirtschaftliche Nachhaltigkeit von MG Clean basiert auf langfristigem Denken und verantwortungsvollem Wirtschaften."
+      },
+      "social": {
+        "title": "Sozial",
+        "description": "Für uns ist soziale Nachhaltigkeit mehr als nur ein Schlagwort – sie ist ein zentraler Bestandteil unserer Unternehmensphilosophie."
+      }
+    },
+    "products": {
+      "title": "Umweltfreundliche Reinigungsmittel",
+      "description": "Wir setzen auf umweltfreundliche Reinigungsmittel, die nicht nur wirksam, sondern auch zertifiziert sind.",
+      "imageAlt": "Umweltfreundliche Reinigungsmittel"
+    },
+    "resources": {
+      "title": "Ressourcennutzung",
+      "description": "Durch den gezielten Einsatz moderner Reinigungstechnik streben wir eine ressourcenschonende Arbeitsweise an, um unseren ökologischen Fußabdruck zu minimieren.",
+      "imageAlt": "Ressourcennutzung Reinigung"
+    },
+    "social": {
+      "title": "Soziale Nachhaltigkeit",
+      "description": "Wir glauben an die Kraft von Teamarbeit und sozialer Verantwortung, um einen positiven Einfluss in unseren Gemeinschaften zu schaffen.",
+      "imageAlt": "Soziale Nachhaltigkeit Teamarbeit"
+    },
+    "responsibility": {
+      "title": "Gemeinsam Verantwortung übernehmen",
+      "description": "Mit der Wahl von MG Clean als Ihrem Reinigungspartner entscheiden Sie sich nicht nur für ein strahlendes Erscheinungsbild, sondern leisten auch einen positiven Beitrag zur Umwelt. Wir laden Sie ein, uns zu begleiten und gemeinsam zu einer nachhaltigen und sauberen Zukunft beizutragen."
+    }
+  },
+  "windowCleaning": {
+    "hero": {
+      "title": "Fensterreinigung",
+      "subtitle": "Professionelle Fensterreinigungsdienste für perfekte Fenster"
+    },
+    "mainSection": {
+      "title": "Fensterreinigung - Für einen klaren Durchblick",
+      "description": "Fehlt Ihnen die nötige Durchsicht und der Blick aus dem Fenster ist mehr ein Raten als ein Sehen? M&G Clean bietet professionelle Fensterreinigungsdienste an. Professionelle Fensterreinigung bietet zahlreiche Vorteile. Wir verwenden umweltfreundliche Reinigungsmittel und modernste Technologie, um eine optimale Reinigungsqualität zu gewährleisten. Wir arbeiten auch schnell und zuverlässig, sodass Sie in kürzester Zeit wieder klare, saubere Fenster genießen können."
+    },
+    "professionalSection": {
+      "title": "Fensterreinigung von Profis",
+      "description": "Die Fensterreinigung umfasst die Reinigung von Glasscheiben, Rahmen und Fensterbänken. Spezielle Reinigungsmittel und Techniken werden verwendet, um hartnäckigen Schmutz, Staub und Fingerabdrücke zu entfernen. Auch die Reinigung von Fenstern in höheren Stockwerken oder in schwer zugänglichen Bereichen ist dank moderner Technologie und Ausrüstung problemlos möglich."
+    },
+    "quoteSection": {
+      "title": "Holen Sie sich ein kostenloses Angebot für Ihre Fensterreinigung"
+    }
+  }
+}
