@@ -3,14 +3,14 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const intlMiddleware = createMiddleware({
   locales: ['en', 'de'],
-  defaultLocale: 'en'
+  defaultLocale: 'de'
 });
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   if (pathname === '/') {
-    return NextResponse.redirect(new URL('/en', request.url));
+    return NextResponse.redirect(new URL('/de', request.url));
   }
 
   return intlMiddleware(request);
