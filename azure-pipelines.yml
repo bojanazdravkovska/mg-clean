@@ -1,11 +1,15 @@
 trigger:
 - master
+
 pool:
   vmImage: ubuntu-latest
 
 variables:
-  GITHUB_REPO: 'bojanazdravkovska/mg-clean'   # replace with your GitHub repo
-  GITHUB_BRANCH: 'master'               # target GitHub branch
+- group: GH_TOKEN
+- name: GITHUB_REPO
+  value: 'bojanazdravkovska/mg-clean'
+- name: GITHUB_BRANCH
+  value: 'master'
 
 steps:
 - checkout: self
