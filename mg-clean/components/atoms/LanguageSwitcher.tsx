@@ -19,7 +19,7 @@ export default function LocaleSwitcher() {
         onClick={() => switchLocale('en')}
         className={`px-4 py-1 rounded-full text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#3AA655] ${
           currentLocale === 'en'
-            ? 'bg-[#3AA655] text-white shadow'
+            ? 'bg-[#B9E2A7] text-white shadow'
             : 'bg-transparent text-gray-700 hover:bg-gray-200'
         }`}
       >
@@ -29,7 +29,7 @@ export default function LocaleSwitcher() {
         onClick={() => switchLocale('de')}
         className={`px-4 py-1 rounded-full text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#3AA655] ${
           currentLocale === 'de'
-            ? 'bg-[#3AA655] text-white shadow'
+            ? 'bg-[#B9E2A7] text-white shadow'
             : 'bg-transparent text-gray-700 hover:bg-gray-200'
         }`}
       >
