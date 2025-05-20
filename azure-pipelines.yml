@@ -17,7 +17,14 @@ steps:
 - script: |
     git config --global user.email "azure-pipeline@yourdomain.com"
     git config --global user.name "Azure Pipeline"
-    
+
+    # Remove existing 'github' remote if it exists
+    git remote remove github || true
+
+    # Add GitHub remote
     git remote add github https://$(GH_TOKEN)@github.com/$(GITHUB_REPO).git
+
+    # Push to GitHub
     git push github HEAD:$(GITHUB_BRANCH) --force
   displayName: 'Push changes to GitHub'
+
