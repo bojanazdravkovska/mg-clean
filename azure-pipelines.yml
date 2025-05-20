@@ -14,17 +14,20 @@ variables:
 steps:
 - checkout: self
 
+
+- script: |
+    echo "GH_TOKEN starts with: ${GH_TOKEN:0:4}..."
+    echo "GITHUB_REPO: $GITHUB_REPO"
+    echo "GITHUB_BRANCH: $GITHUB_BRANCH"
+  displayName: 'Debug Variables'
+
+
 - script: |
     git config --global user.email "azure-pipeline@yourdomain.com"
     git config --global user.name "Azure Pipeline"
 
-    # Remove existing 'github' remote if it exists
     git remote remove github || true
+    git remote add github https://$GH_TOKEN@github.com/$GITHUB_REPO.git
 
-    # Add GitHub remote
-    git remote add github https://$(GH_TOKEN)@github.com/$(GITHUB_REPO).git
-
-    # Push to GitHub
-    git push github HEAD:$(GITHUB_BRANCH) --force
+    git push github HEAD:$GITHUB_BRANCH --force
   displayName: 'Push changes to GitHub'
-
