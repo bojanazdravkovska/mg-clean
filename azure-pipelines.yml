@@ -13,6 +13,8 @@ variables:
 
 steps:
 - checkout: self
+  persistCredentials: true
+  fetchDepth: 0
 
 
 - script: |
