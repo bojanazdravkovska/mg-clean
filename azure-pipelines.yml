@@ -1,0 +1,19 @@
+trigger:
+- master
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  GITHUB_REPO: 'bojanazdravkovska/mg-clean'   # replace with your GitHub repo
+  GITHUB_BRANCH: 'master'               # target GitHub branch
+
+steps:
+- checkout: self
+
+- script: |
+    git config --global user.email "azure-pipeline@yourdomain.com"
+    git config --global user.name "Azure Pipeline"
+    
+    git remote add github https://$(GH_TOKEN)@github.com/$(GITHUB_REPO).git
+    git push github HEAD:$(GITHUB_BRANCH) --force
+  displayName: 'Push changes to GitHub'
