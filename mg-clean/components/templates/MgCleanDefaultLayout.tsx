@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle
 } from '@/components/organisms/NavigationMenu';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/organisms/Sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/organisms/Sheet';
 import { Menu } from 'lucide-react';
 
 interface MgCleanDefaultLayoutProps {
@@ -72,7 +72,7 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
               </NavigationMenu>
 
               {/* Mobile menu */}
-              <div className="md:hidden">
+              <div className="md:hidden absolute right-5 top-6">
                 <Sheet>
                   <SheetTrigger asChild>
                     <button
@@ -83,20 +83,25 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
                       <Menu className="h-6 w-6" />
                     </button>
                   </SheetTrigger>
-                  <SheetContent side="right">
-                    <div className="flex flex-col gap-4 mt-8">
-                      {navigationItems.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={`/${locale}${item.href}`}
-                          className="text-lg font-medium text-gray-700 hover:text-[#3AA655]"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                      {/* Locale switcher for mobile */}
-                      <div className="mt-4">
+                  <SheetContent side="right" className="w-[300px] bg-white">
+                    <div className="flex flex-col h-full">
+                      {/* Language switcher at the top */}
+                      <div className="mb-6 pt-4">
                         <LocaleSwitcher />
+                      </div>
+                      
+                      {/* Navigation items */}
+                      <div className="flex flex-col gap-4">
+                        <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                        {navigationItems.map((item) => (
+                          <Link
+                            key={item.name}
+                            href={`/${locale}${item.href}`}
+                            className="text-lg font-medium text-gray-700 hover:text-[#3AA655] transition-colors"
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
                       </div>
                     </div>
                   </SheetContent>
@@ -153,7 +158,15 @@ const MgCleanDefaultLayout: React.FC<MgCleanDefaultLayoutProps> = ({ children })
           </div>
           <div className="mt-8 pt-8 border-t border-gray-200">
             <p className="text-gray-500 text-sm text-center">
-              {t('footer.copyright', { year: new Date().getFullYear() })}
+              {t('footer.copyright', { year: new Date().getFullYear() })} |{' '}
+              <Link 
+                href="https://www.nativeai.cloud/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-[#3AA655] transition-colors"
+              >
+                Powered By Native Cloud
+              </Link>
             </p>
           </div>
         </div>
