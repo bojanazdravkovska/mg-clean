@@ -30,6 +30,7 @@ export default function ServicesSection({ dashboard = false }: ServicesSectionPr
       title: t("items.windowCleaning.title"),
       description: t("items.windowCleaning.description"),
       image: "/assets/images/window-cleaning.jpg",
+      //mg-clean\public\assets\images\window-cleaning.jpg
       link: `/${locale}/window-cleaning`,
     },
     {
