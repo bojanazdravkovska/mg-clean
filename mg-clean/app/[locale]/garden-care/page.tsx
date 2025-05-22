@@ -55,7 +55,7 @@ const ImageSlider = () => {
               className="rounded-lg object-cover"
             />
             <Image
-              src="/assets/images/img4.jpg"
+              src="/assets/images/2.jpg"
               alt="Garden 4"
               width={140}
               height={110}
@@ -64,14 +64,14 @@ const ImageSlider = () => {
           </div>
           <div className="grid grid-cols-4 gap-4 min-w-full">
             <Image
-              src="/assets/images/img5.jpg"
+              src="/assets/images/1.jpg"
               alt="Garden 5"
               width={140}
               height={110}
               className="rounded-lg object-cover"
             />
             <Image
-              src="/assets/images/img6.jpg"
+              src="/assets/images/2.jpg"
               alt="Garden 6"
               width={140}
               height={110}
@@ -101,7 +101,7 @@ export default function GardenCarePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/garden-care.jpg"
+            src="/assets/images/garden-care.webp"
             alt="Garden Care"
             fill
             className="object-cover w-full h-full"
@@ -137,7 +137,7 @@ export default function GardenCarePage() {
             <div className="order-2">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/garden-care.jpg"
+                  src="/assets/images/garden-cleaner.webp"
                   alt="Caretaker Garden Care"
                   fill
                   className="object-cover"

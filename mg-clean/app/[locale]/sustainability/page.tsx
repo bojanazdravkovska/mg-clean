@@ -11,7 +11,7 @@ export default function SustainabilityPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/sustainbility.jpg"
+            src="/assets/images/sustainable-cleaning-products.jpg"
             alt={t('sustainability.hero.imageAlt')}
             fill
             className="object-cover w-full h-full"
@@ -88,7 +88,7 @@ export default function SustainabilityPage() {
         <div className="flex-1 flex justify-center items-center">
           <div className="w-full max-w-[500px] h-[340px] rounded-3xl overflow-hidden shadow-lg">
             <Image
-              src="/assets/images/resource.jpg"
+              src="/assets/images/resources.webp"
               alt={t('sustainability.resources.imageAlt')}
               width={800}
               height={540}
@@ -124,7 +124,7 @@ export default function SustainabilityPage() {
         <div className="flex-1 flex justify-center items-center">
           <div className="w-full max-w-[500px] h-[340px] rounded-3xl overflow-hidden shadow-lg">
             <Image
-              src="/assets/images/social-sustainbility.jpg"
+              src="/assets/images/social-sustainbility.webp"
               alt={t('sustainability.social.imageAlt')}
               width={800}
               height={540}

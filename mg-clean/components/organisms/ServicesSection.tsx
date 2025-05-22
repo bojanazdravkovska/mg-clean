@@ -17,19 +17,19 @@ export default function ServicesSection({ dashboard = false }: ServicesSectionPr
     {
       title: t("items.propertyMaintenance.title"),
       description: t("items.propertyMaintenance.description"),
-      image: "/assets/images/property-maintenance.jpg",
+      image: "/assets/images/property-maintenance.jpeg",
       link: `/${locale}/property-maintenance`,
     },
     {
       title: t("items.officeCleaning.title"),
       description: t("items.officeCleaning.description"),
-      image: "/assets/images/office-cleaning.jpg",
+      image: "/assets/images/office-cleaning.webp",
       link: `/${locale}/office-cleaning`,
     },
     {
       title: t("items.windowCleaning.title"),
       description: t("items.windowCleaning.description"),
-      image: "/assets/images/window-cleaning.png",
+      image: "/assets/images/window-cleaning.jpg",
       link: `/${locale}/window-cleaning`,
     },
     {
@@ -41,25 +41,25 @@ export default function ServicesSection({ dashboard = false }: ServicesSectionPr
     {
       title: t("items.solarSystemCleaning.title"),
       description: t("items.solarSystemCleaning.description"),
-      image: "/assets/images/solar-system-cleaning.webp",
+      image: "/assets/images/solar-cleaning.webp",
       link: `/${locale}/solar-system-cleaning`,
     },
     {
       title: t("items.gardenCare.title"),
       description: t("items.gardenCare.description"),
-      image: "/assets/images/garden-care.jpg",
+      image: "/assets/images/garden-care.webp",
       link: `/${locale}/garden-care`,
     },
     {
       title: t("items.evictions.title"),
       description: t("items.evictions.description"),
-      image: "/assets/images/evictions.png",
+      image: "/assets/images/evictions.webp",
       link: `/${locale}/evictions`,
     },
     {
       title: t("items.maintenanceCleaning.title"),
       description: t("items.maintenanceCleaning.description"),
-      image: "/assets/images/maintenance-cleaning.jpg",
+      image: "/assets/images/maintenace-cleaning.jpg",
       link: `/${locale}/maintenance-cleaning`,
     },
   ]

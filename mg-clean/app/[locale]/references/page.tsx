@@ -14,7 +14,7 @@ export default function ReferencesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/references-image.jpg"
+            src="/assets/images/our-references.jpg"
             alt={t("title")}
             fill
             className="object-cover w-full h-full"

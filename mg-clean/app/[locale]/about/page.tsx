@@ -47,7 +47,7 @@ export default function AboutUsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/about-us.png"
+            src="/assets/images/property-maintenance.jpeg"
             alt="About Us"
             fill
             className="object-cover w-full h-full"
@@ -96,7 +96,7 @@ export default function AboutUsPage() {
             <div className="order-2 lg:order-1">
               <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/founder-picture.jpg"
+                  src="/assets/images/mg-clean-logo.png"
                   alt="MG Clean founder"
                   fill
                   className="object-cover"

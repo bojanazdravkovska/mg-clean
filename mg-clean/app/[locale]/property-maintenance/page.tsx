@@ -13,7 +13,7 @@ export default function PropertyMaintenancePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/property-maintenance.png"
+            src="/assets/images/property-maintenance.jpeg"
             alt="Property Maintenance"
             fill
             className="object-cover w-full h-full"
@@ -74,7 +74,7 @@ export default function PropertyMaintenancePage() {
             <div className="order-2">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/garden-care.jpg"
+                  src="/assets/images/garden.jpg"
                   alt="Caretaker Garden Care"
                   fill
                   className="object-cover"
@@ -93,7 +93,7 @@ export default function PropertyMaintenancePage() {
             <div className="order-1 lg:order-1">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/property-maintenance.jpg"
+                  src="/assets/images/floor-clean.jpg"
                   alt="Property Maintenance Trust"
                   fill
                   className="object-cover"
@@ -136,7 +136,7 @@ export default function PropertyMaintenancePage() {
             <div className="order-2">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/garden-care.jpg"
+                  src="/assets/images/lawn-maintenance.jpg"
                   alt="Caretaker Garden Care"
                   fill
                   className="object-cover"

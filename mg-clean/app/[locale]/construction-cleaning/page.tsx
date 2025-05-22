@@ -47,7 +47,7 @@ export default function ConstructionCleaningPage() {
             <div className="order-2">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/garden-care.jpg"
+                  src="/assets/images/construction.webp"
                   alt="Caretaker Garden Care"
                   fill
                   className="object-cover"
@@ -65,7 +65,7 @@ export default function ConstructionCleaningPage() {
             <div className="order-1">
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/construction-cleaning.jpg"
+                  src="/assets/images/construction-man.jpg"
                   alt="Construction Cleaning in Progress"
                   fill
                   className="object-cover"

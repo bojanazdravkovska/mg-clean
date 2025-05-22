@@ -14,7 +14,7 @@ export default function PropertyMaintenancePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/office-cleaning.jpg"
+            src="/assets/images/office-cleaning.webp"
             alt={t("hero.title.part1") + " " + t("hero.title.part2")}
             fill
             className="object-cover w-full h-full"
@@ -52,33 +52,6 @@ export default function PropertyMaintenancePage() {
         {/* Request for Quotation Form */}
         <div className="flex-1 min-w-[320px] flex justify-center">
           <RequestForQuotation />
-        </div>
-      </div>
-      {/* New Image Section with Overlay Texts */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid gap-8 md:grid-rows-2">
-        <div className="relative w-full h-[200px] md:h-[240px] rounded-xl overflow-hidden">
-          <Image
-            src="/assets/images/office-cleaning-img.jpg"
-            alt={t("features.trustworthy")}
-            fill
-            className="object-cover"
-            quality={100}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            priority
-          />
-          <span className="absolute top-6 left-6 text-white font-bold text-lg md:text-xl drop-shadow-lg">{t("features.trustworthy")}</span>
-        </div>
-        <div className="relative w-full h-[200px] md:h-[240px] rounded-xl overflow-hidden">
-          <Image
-            src="/assets/images/office-cleaning-checklist.jpeg"
-            alt={t("features.maintained")}
-            fill
-            className="object-cover"
-            quality={100}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            priority
-          />
-          <span className="absolute top-6 left-6 text-white font-bold text-lg md:text-xl drop-shadow-lg">{t("features.maintained")}</span>
         </div>
       </div>
       <References />

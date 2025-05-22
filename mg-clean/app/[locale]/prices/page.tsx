@@ -46,7 +46,7 @@ export default function PricesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/risk-management-1.jpg"
+            src="/assets/images/strategy.webp"
             alt="Cleaning at a fair price"
             fill
             className="object-cover w-full h-full"
@@ -111,7 +111,7 @@ export default function PricesPage() {
           <div className="flex-1 flex justify-center items-end relative h-[340px]">
             <div className="absolute left-1/2 bottom-0 translate-x-[-50%] translate-y-[35%] w-[80%] z-20">
               <Image
-                src="/assets/images/keys.jpg"
+                src="/assets/images/key.webp"
                 alt="Handing over keys"
                 width={800}
                 height={500}

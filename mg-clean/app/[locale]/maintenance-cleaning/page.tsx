@@ -15,7 +15,7 @@ export default function MaintenanceCleaningPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/maintenance-cleaning.jpg"
+            src="/assets/images/maintenace-cleaning.jpg"
             alt="Maintenance Cleaning"
             fill
             className="object-cover w-full h-full"
@@ -52,7 +52,7 @@ export default function MaintenanceCleaningPage() {
           <div className="flex-1 flex justify-center mt-8 md:mt-0">
             <div className="w-[320px] h-[220px] relative rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/assets/images/maintenance-cleaning.jpg"
+                src="/assets/images/maintenance.jpg"
                 alt="Maintenance Cleaning Example"
                 fill
                 className="object-cover w-full h-full"
