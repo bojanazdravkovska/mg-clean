@@ -96,7 +96,7 @@ export default function AboutUsPage() {
             <div className="order-2 lg:order-1">
               <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/assets/images/mg-clean-logo.png"
+                  src="/assets/images/3.jpg"
                   alt="MG Clean founder"
                   fill
                   className="object-cover"

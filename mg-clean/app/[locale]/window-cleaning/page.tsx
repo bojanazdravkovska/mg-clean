@@ -13,7 +13,7 @@ export default function WindowCleaningPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
           <Image
-            src="/assets/images/window-cleaning.jpg"
+            src="/assets/images/cleaning-window.jpg"
             alt={t("hero.title")}
             fill
             className="object-cover w-full h-full"
@@ -86,6 +86,44 @@ export default function WindowCleaningPage() {
           </div>
         </div>
       </section>
+
+      <section className="w-full py-12 md:py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
+              {t("beforeAfterSection.title")}
+            </h2>
+            <div className="w-full max-w-[500px] h-[2px] bg-[#5A7D8C] mx-auto mb-6" />
+          </div>
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-center">{t("beforeAfterSection.before")}</h3>
+              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
+                <Image
+                  src="/assets/images/img4.jpg"
+                  alt={t("beforeAfterSection.before")}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
+              </div>
+            </div>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-center">{t("beforeAfterSection.after")}</h3>
+              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
+                <Image
+                  src="/assets/images/img6.jpg"
+                  alt={t("beforeAfterSection.after")}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ClientsSection />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 min-w-[320px] flex flex-col justify-center">

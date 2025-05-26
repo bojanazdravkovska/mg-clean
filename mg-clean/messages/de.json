@@ -785,6 +785,11 @@
     },
     "quoteSection": {
       "title": "Holen Sie sich ein kostenloses Angebot für Ihre Fensterreinigung"
+    },
+    "beforeAfterSection": {
+      "title": "Vorher & Nachher",
+      "before": "Vorher",
+      "after": "Nachher"
     }
   }
 }

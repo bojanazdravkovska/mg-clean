@@ -785,6 +785,11 @@
     },
     "quoteSection": {
       "title": "Get a free quote for your window cleaning"
+    },
+    "beforeAfterSection": {
+      "title": "Before & After",
+      "before": "Before",
+      "after": "After"
     }
   }
 }

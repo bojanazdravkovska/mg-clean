@@ -52,7 +52,7 @@ export default function MaintenanceCleaningPage() {
           <div className="flex-1 flex justify-center mt-8 md:mt-0">
             <div className="w-[320px] h-[220px] relative rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/assets/images/maintenance.jpg"
+                src="/assets/images/stairs.jpg"
                 alt="Maintenance Cleaning Example"
                 fill
                 className="object-cover w-full h-full"
