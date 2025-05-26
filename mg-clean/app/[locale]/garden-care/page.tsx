@@ -2,93 +2,53 @@
 
 import Image from "next/image"
 import MgCleanDefaultLayout from "@/components/templates/MgCleanDefaultLayout"
-import { useState } from "react"
 import { useTranslations } from "next-intl"
 
 const ImageSlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev === 1 ? 0 : 1));
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev === 0 ? 1 : 0));
-  };
-
   return (
-    <div className="flex items-center justify-center gap-4">
-      <button 
-        onClick={prevSlide}
-        className="p-2 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors" 
-        aria-label="Previous"
-      >
-        <svg width="18" height="18" fill="none" viewBox="0 0 24 24">
-          <path d="M15 18l-6-6 6-6" stroke="#7A8B6F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      </button>
-      <div className="relative w-full max-w-[600px] overflow-hidden">
-        <div 
-          className="flex transition-transform duration-300 ease-in-out"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          <div className="grid grid-cols-4 gap-4 min-w-full">
-            <Image
-              src="/assets/images/img1.jpg"
-              alt="Garden 1"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src="/assets/images/img2.jpg"
-              alt="Garden 2"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src="/assets/images/img3.jpg"
-              alt="Garden 3"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src="/assets/images/2.jpg"
-              alt="Garden 4"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-          </div>
-          <div className="grid grid-cols-4 gap-4 min-w-full">
-            <Image
-              src="/assets/images/1.jpg"
-              alt="Garden 5"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-            <Image
-              src="/assets/images/2.jpg"
-              alt="Garden 6"
-              width={140}
-              height={110}
-              className="rounded-lg object-cover"
-            />
-          </div>
-        </div>
-      </div>
-      <button 
-        onClick={nextSlide}
-        className="p-2 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors" 
-        aria-label="Next"
-      >
-        <svg width="18" height="18" fill="none" viewBox="0 0 24 24">
-          <path d="M9 6l6 6-6 6" stroke="#7A8B6F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      </button>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <Image
+        src="/assets/images/img1.jpg"
+        alt="Garden 1"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
+      <Image
+        src="/assets/images/img2.jpg"
+        alt="Garden 2"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
+      <Image
+        src="/assets/images/img3.jpg"
+        alt="Garden 3"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
+      <Image
+        src="/assets/images/2.jpg"
+        alt="Garden 4"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
+      <Image
+        src="/assets/images/1.jpg"
+        alt="Garden 5"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
+      <Image
+        src="/assets/images/2.jpg"
+        alt="Garden 6"
+        width={140}
+        height={140}
+        className="rounded-lg object-cover w-full h-[200px]"
+      />
     </div>
   );
 };
