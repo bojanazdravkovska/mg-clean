@@ -6,34 +6,26 @@ interface ReferencesProps {
   logos?: {
     src: string
     alt: string
+    href?: string
   }[]
 }
 
 const defaultLogos = [
   {
-    src: "/assets/images/references/benu.png",
-    alt: "Reference Company 1"
+    src: "/assets/images/logo1.png",
+    alt: "Roth Gerüste",
+    href: "https://rothgerueste.ch/",
   },
   {
-    src: "/assets/images/references/globus.png",
-    alt: "Reference Company 2"
+    src: "/assets/images/logo2.jpg",
+    alt: "Schaeppi",
+    href: "https://www.schaeppi.ch/de.html",
   },
   {
-    src: "/assets/images/references/itris.png",
-    alt: "Reference Company 3"
+    src: "/assets/images/logo3.jpg",
+    alt: "Franchi AG",
+    href: "https://www.google.com/maps/place/Franchi+AG/data=!4m2!3m1!1s0x0:0x982d89fb8a7ff05a?sa=X&ved=1t%3A2428&ictx=111",
   },
-  {
-    src: "/assets/images/references/rosta.png",
-    alt: "Reference Company 4"
-  },
-  {
-    src: "/assets/images/references/sacac.png",
-    alt: "Reference Company 5"
-  },
-  {
-    src: "/assets/images/references/zebra.png",
-    alt: "Reference Company 6"
-  }
 ]
 
 export function References({
@@ -56,17 +48,19 @@ export function References({
           </p>
         </div>
        
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-items-center">
+        <div className="flex flex-row flex-wrap justify-center gap-8 items-center">
           {logos.map((client, index) => (
-            <div key={index} className="bg-[#2D3748] p-4 rounded-lg flex items-center justify-center h-24 w-full">
-              <Image
-                src={client.src || "/placeholder.svg"}
-                alt={`${client.alt} logo`}
-                width={160}
-                height={64}
-                className="max-h-16 w-auto object-contain"
-              />
-            </div>
+            <a key={index} href={client.href} target="_blank" rel="noopener noreferrer">
+              <div className="bg-[#2D3748] p-4 rounded-lg flex items-center justify-center h-24 w-48">
+                <Image
+                  src={client.src || "/placeholder.svg"}
+                  alt={`${client.alt} logo`}
+                  width={160}
+                  height={64}
+                  className="max-h-16 w-auto object-contain"
+                />
+              </div>
+            </a>
           ))}
         </div>
       </div>
